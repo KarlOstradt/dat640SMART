@@ -6,7 +6,7 @@ def load_dataset(filepath):
     Doc...
     '''
     obj = []
-    with open(filepath, 'r') as file:
+    with open(filepath, 'r', encoding="UTF-8") as file:
         obj = json.load(file)
     return obj
 
