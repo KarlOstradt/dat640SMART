@@ -1,4 +1,5 @@
 import json
+import pickle
 from sklearn.feature_extraction.text import CountVectorizer
 
 def load_dataset(filepath):
@@ -32,7 +33,7 @@ def prepare_X_y(train, test):
     return X_train, y_train, X_test, y_test
 
 
-def extract_features(train_dataset, test_dataset):
+def extract_features(train_dataset, test_dataset, file):
     """Extracts feature vectors from a preprocessed train and test datasets.
     
     Args:
@@ -44,6 +45,14 @@ def extract_features(train_dataset, test_dataset):
     """
     vectorizer = CountVectorizer()
     train_vectors = vectorizer.fit_transform(train_dataset)
+    with open(file, 'wb') as f:
+        pickle.dump(vectorizer, f)
     
     test_vectors = vectorizer.transform(test_dataset)
     return train_vectors, test_vectors
+
+
+def transform_dataset(test_dataset, file):
+    with open(file, 'rb') as f:
+        return pickle.load(f).transform(test_dataset)
+    return None
