@@ -54,12 +54,11 @@
         "question": "Which daughters of British earls died at the same place they were born at?",
         "category": "resource",
         "type": [
+            "dbo:Athlete",
             "dbo:ChessPlayer",
             "dbo:City",
             "dbo:Location",
-            "dbo:Place",
-            "dbo:PopulatedPlace",
-            "dbo:Settlement"
+            "dbo:PopulatedPlace"
         ]
     },
     {
@@ -109,7 +108,6 @@
         "type": [
             "dbo:Asteroid",
             "dbo:CelestialBody",
-            "dbo:Location",
             "dbo:Planet"
         ]
     },
@@ -150,6 +148,7 @@
         "question": "In which wars has Steven Palazzo fought?",
         "category": "resource",
         "type": [
+            "dbo:Country",
             "dbo:Location",
             "dbo:MilitaryConflict",
             "dbo:Place",
@@ -216,6 +215,7 @@
         "category": "resource",
         "type": [
             "dbo:Country",
+            "dbo:Location",
             "dbo:PopulatedPlace",
             "dbo:Scientist"
         ]
@@ -225,11 +225,10 @@
         "question": "Where all does the sister station of virgin radio play?",
         "category": "resource",
         "type": [
-            "dbo:City",
             "dbo:Company",
             "dbo:Continent",
             "dbo:Location",
-            "dbo:Media",
+            "dbo:Place",
             "dbo:Writer"
         ]
     },
@@ -238,10 +237,10 @@
         "question": "In which branch of the government does James L. McConaughy belong?",
         "category": "resource",
         "type": [
+            "dbo:Country",
             "dbo:Location",
             "dbo:MilitaryPerson",
             "dbo:MilitaryUnit",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Royalty",
             "dbo:State"
@@ -415,7 +414,6 @@
         "question": "Which is the foundational text for Declaration of the Establishment of the State of Israel?",
         "category": "resource",
         "type": [
-            "dbo:Book",
             "dbo:Country",
             "dbo:Letter",
             "dbo:Location",
@@ -491,7 +489,6 @@
         "question": "What disease is sodium chloride used as a treatment for?",
         "category": "resource",
         "type": [
-            "dbo:ChemicalCompound",
             "dbo:ChemicalSubstance",
             "dbo:Disease"
         ]
@@ -586,6 +583,7 @@
         "type": [
             "dbo:BodyOfWater",
             "dbo:City",
+            "dbo:Location",
             "dbo:NaturalPlace",
             "dbo:Ocean",
             "dbo:PopulatedPlace",
@@ -754,7 +752,6 @@
         "question": "What are  the boat type  which start with the letter y",
         "category": "resource",
         "type": [
-            "dbo:Media",
             "dbo:Taxon"
         ]
     },
@@ -820,6 +817,7 @@
         "question": "What is tournament for snooker called",
         "category": "resource",
         "type": [
+            "dbo:Event",
             "dbo:SportsEvent",
             "dbo:Tournament"
         ]
@@ -848,19 +846,18 @@
         "type": [
             "dbo:Architect",
             "dbo:ArchitecturalStructure",
-            "dbo:BodyOfWater",
             "dbo:Infrastructure",
-            "dbo:NaturalPlace",
             "dbo:RailwayStation",
-            "dbo:Station",
-            "dbo:Stream"
+            "dbo:Station"
         ]
     },
     {
         "id": "dbpedia_19671",
         "question": "Name the notable commanders of Army Group Oberrhein ?",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:OfficeHolder"
+        ]
     },
     {
         "id": "dbpedia_13667",
@@ -896,7 +893,6 @@
             "dbo:CelestialBody",
             "dbo:Constellation",
             "dbo:Location",
-            "dbo:Place",
             "dbo:Planet"
         ]
     },
@@ -1043,7 +1039,6 @@
         "type": [
             "dbo:City",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Settlement"
         ]
@@ -1058,7 +1053,6 @@
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
-            "dbo:RouteOfTransportation",
             "dbo:Settlement"
         ]
     },
@@ -1268,6 +1262,7 @@
         "category": "resource",
         "type": [
             "dbo:Country",
+            "dbo:Location",
             "dbo:Person",
             "dbo:PopulatedPlace",
             "dbo:State"
@@ -1335,6 +1330,7 @@
             "dbo:BodyOfWater",
             "dbo:Bridge",
             "dbo:Infrastructure",
+            "dbo:Location",
             "dbo:Mountain",
             "dbo:NaturalPlace",
             "dbo:RouteOfTransportation",
@@ -1359,7 +1355,6 @@
         "category": "resource",
         "type": [
             "dbo:Artist",
-            "dbo:MusicGenre",
             "dbo:MusicalArtist"
         ]
     },
@@ -1397,7 +1392,6 @@
         "question": "Name the inventor of deuterium who worked at Columbia University.",
         "category": "resource",
         "type": [
-            "dbo:Media",
             "dbo:PersonFunction",
             "dbo:Profession"
         ]
@@ -1544,18 +1538,20 @@
         "id": "dbpedia_13233",
         "question": "who  is the  sexuality of musician  Jump?",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:AnatomicalStructure"
+        ]
     },
     {
         "id": "dbpedia_11104",
         "question": "Which is the geoshape of the Republic of the Congo?",
         "category": "resource",
         "type": [
+            "dbo:Country",
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
-            "dbo:State",
-            "dbo:Stream"
+            "dbo:State"
         ]
     },
     {
@@ -1603,8 +1599,7 @@
             "dbo:Parliament",
             "dbo:Place",
             "dbo:PopulatedPlace",
-            "dbo:Road",
-            "dbo:RouteOfTransportation"
+            "dbo:Road"
         ]
     },
     {
@@ -1627,7 +1622,6 @@
             "dbo:Building",
             "dbo:City",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Settlement"
         ]
@@ -1879,7 +1873,8 @@
             "dbo:Location",
             "dbo:NaturalPlace",
             "dbo:Place",
-            "dbo:PopulatedPlace"
+            "dbo:PopulatedPlace",
+            "dbo:State"
         ]
     },
     {
@@ -1925,7 +1920,10 @@
         "id": "dbpedia_13166",
         "question": "what happens in dota 2 universe",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:Genre",
+            "dbo:MusicGenre"
+        ]
     },
     {
         "id": "dbpedia_8674",
@@ -1983,7 +1981,8 @@
         "type": [
             "dbo:AcademicJournal",
             "dbo:AcademicSubject",
-            "dbo:Game"
+            "dbo:Game",
+            "dbo:Sport"
         ]
     },
     {
@@ -2078,8 +2077,7 @@
         "category": "resource",
         "type": [
             "dbo:Location",
-            "dbo:Place",
-            "dbo:PopulatedPlace"
+            "dbo:Place"
         ]
     },
     {
@@ -2133,6 +2131,7 @@
             "dbo:Coach",
             "dbo:CollegeCoach",
             "dbo:HockeyTeam",
+            "dbo:Organisation",
             "dbo:SportsTeam"
         ]
     },
@@ -2180,10 +2179,12 @@
         "question": "Which culture ministry in South Korea has the largest budget?",
         "category": "resource",
         "type": [
+            "dbo:Biomolecule",
             "dbo:Gene",
             "dbo:Location",
             "dbo:Place",
-            "dbo:PopulatedPlace"
+            "dbo:PopulatedPlace",
+            "dbo:State"
         ]
     },
     {
@@ -2320,6 +2321,7 @@
             "dbo:AnatomicalStructure",
             "dbo:Animal",
             "dbo:Cat",
+            "dbo:Eukaryote",
             "dbo:Language",
             "dbo:Mammal",
             "dbo:ProgrammingLanguage"
@@ -2352,7 +2354,6 @@
         "type": [
             "dbo:Country",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -2433,8 +2434,7 @@
             "dbo:GivenName",
             "dbo:Language",
             "dbo:Name",
-            "dbo:ProgrammingLanguage",
-            "dbo:Software"
+            "dbo:ProgrammingLanguage"
         ]
     },
     {
@@ -2445,6 +2445,7 @@
             "dbo:ArchitecturalStructure",
             "dbo:Building",
             "dbo:Hotel",
+            "dbo:Stream",
             "dbo:Tower"
         ]
     },
@@ -2473,6 +2474,7 @@
         "type": [
             "dbo:Asteroid",
             "dbo:CelestialBody",
+            "dbo:Device",
             "dbo:Galaxy",
             "dbo:Location",
             "dbo:Place",
@@ -2535,7 +2537,8 @@
             "dbo:Musical",
             "dbo:MusicalArtist",
             "dbo:MusicalWork",
-            "dbo:TelevisionShow"
+            "dbo:TelevisionShow",
+            "dbo:Work"
         ]
     },
     {
@@ -2546,7 +2549,6 @@
             "dbo:Activity",
             "dbo:City",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Settlement"
         ]
@@ -2598,10 +2600,9 @@
         "category": "resource",
         "type": [
             "dbo:Activity",
+            "dbo:Event",
             "dbo:Game",
             "dbo:Location",
-            "dbo:Place",
-            "dbo:PopulatedPlace",
             "dbo:Sport",
             "dbo:SportsEvent",
             "dbo:Tournament"
@@ -2634,6 +2635,7 @@
         "question": "Who is the showrunner of Creeper?",
         "category": "resource",
         "type": [
+            "dbo:OfficeHolder",
             "dbo:Person"
         ]
     },
@@ -2839,7 +2841,6 @@
             "dbo:Airport",
             "dbo:AnatomicalStructure",
             "dbo:ArchitecturalStructure",
-            "dbo:City",
             "dbo:Infrastructure",
             "dbo:Location",
             "dbo:Place",
@@ -2865,6 +2866,7 @@
         "category": "resource",
         "type": [
             "dbo:Album",
+            "dbo:OfficeHolder",
             "dbo:Royalty"
         ]
     },
@@ -2977,9 +2979,10 @@
         "category": "resource",
         "type": [
             "dbo:City",
-            "dbo:Location",
+            "dbo:Organisation",
             "dbo:PopulatedPlace",
-            "dbo:Settlement"
+            "dbo:Settlement",
+            "dbo:State"
         ]
     },
     {
@@ -3013,8 +3016,10 @@
         "question": "Tell me opera whose name has the word zhenitba in it",
         "category": "resource",
         "type": [
-            "dbo:Archipelago",
-            "dbo:Constellation"
+            "dbo:Device",
+            "dbo:EthnicGroup",
+            "dbo:Food",
+            "dbo:Weapon"
         ]
     },
     {
@@ -3041,11 +3046,8 @@
         "category": "resource",
         "type": [
             "dbo:Case",
-            "dbo:City",
             "dbo:LegalCase",
             "dbo:Location",
-            "dbo:Place",
-            "dbo:PopulatedPlace",
             "dbo:UnitOfWork"
         ]
     },
@@ -3183,6 +3185,7 @@
         "category": "resource",
         "type": [
             "dbo:Country",
+            "dbo:Location",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -3224,9 +3227,7 @@
         "id": "dbpedia_6172",
         "question": "Where did John Ruskin work and when did his work end?",
         "category": "resource",
-        "type": [
-            "dbo:Book"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_17469",
@@ -3292,6 +3293,7 @@
         "question": "What is the label of I Pray on Christmas ?",
         "category": "resource",
         "type": [
+            "dbo:Biomolecule",
             "dbo:Company",
             "dbo:Gene",
             "dbo:RecordLabel"
@@ -3535,7 +3537,8 @@
         "type": [
             "dbo:Company",
             "dbo:Device",
-            "dbo:InformationAppliance"
+            "dbo:InformationAppliance",
+            "dbo:Organisation"
         ]
     },
     {
@@ -3581,7 +3584,6 @@
             "dbo:City",
             "dbo:Country",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -3648,7 +3650,6 @@
         "type": [
             "dbo:ArchitecturalStructure",
             "dbo:Building",
-            "dbo:CelestialBody",
             "dbo:Galaxy"
         ]
     },
@@ -3690,11 +3691,9 @@
         "category": "resource",
         "type": [
             "dbo:CyclingRace",
-            "dbo:Event",
             "dbo:FormulaOneRacer",
             "dbo:HorseRace",
             "dbo:Race",
-            "dbo:SocietalEvent",
             "dbo:SportsEvent"
         ]
     },
@@ -3844,7 +3843,10 @@
         "id": "dbpedia_18734",
         "question": "What is the genre of Battle Chess?",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:Game",
+            "dbo:Sport"
+        ]
     },
     {
         "id": "dbpedia_8036",
@@ -3852,8 +3854,6 @@
         "category": "resource",
         "type": [
             "dbo:Cemetery",
-            "dbo:Deity",
-            "dbo:Infrastructure",
             "dbo:PowerStation",
             "dbo:ProtectedArea"
         ]
@@ -3901,7 +3901,6 @@
         "question": "Who is the relative of Mahatma Gandhi?",
         "category": "resource",
         "type": [
-            "dbo:Location",
             "dbo:Museum",
             "dbo:Person"
         ]
@@ -4007,8 +4006,10 @@
         "category": "resource",
         "type": [
             "dbo:Athlete",
+            "dbo:Mammal",
             "dbo:Plant",
-            "dbo:RugbyPlayer"
+            "dbo:RugbyPlayer",
+            "dbo:Species"
         ]
     },
     {
@@ -4024,7 +4025,6 @@
         "question": "What is crew member Yuri Gagarin's Vostok?",
         "category": "resource",
         "type": [
-            "dbo:MeanOfTransportation",
             "dbo:MilitaryUnit",
             "dbo:PersonFunction",
             "dbo:Profession",
@@ -4037,7 +4037,6 @@
         "category": "resource",
         "type": [
             "dbo:EducationalInstitution",
-            "dbo:Location",
             "dbo:Organisation",
             "dbo:PopulatedPlace",
             "dbo:University"
@@ -4051,7 +4050,8 @@
             "dbo:Continent",
             "dbo:Location",
             "dbo:Place",
-            "dbo:PopulatedPlace"
+            "dbo:PopulatedPlace",
+            "dbo:State"
         ]
     },
     {
@@ -4146,8 +4146,10 @@
         "question": "What business in the United States has the most registered users or contributors ?",
         "category": "resource",
         "type": [
+            "dbo:Device",
             "dbo:MilitaryUnit",
-            "dbo:Organisation"
+            "dbo:Organisation",
+            "dbo:UnitOfWork"
         ]
     },
     {
@@ -4190,7 +4192,6 @@
             "dbo:Country",
             "dbo:EthnicGroup",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -4274,7 +4275,6 @@
         "type": [
             "dbo:Country",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:RadioProgram",
             "dbo:State"
@@ -4311,7 +4311,6 @@
             "dbo:Band",
             "dbo:Genre",
             "dbo:Group",
-            "dbo:MusicGenre",
             "dbo:SoccerClub",
             "dbo:SportsClub",
             "dbo:SportsTeam"
@@ -4330,6 +4329,7 @@
         "question": "What nation is Hornito located in, where Jamie Bateman Cayn died too?",
         "category": "resource",
         "type": [
+            "dbo:Country",
             "dbo:Location",
             "dbo:Mountain",
             "dbo:NaturalPlace",
@@ -4674,7 +4674,6 @@
             "dbo:Company",
             "dbo:Language",
             "dbo:PersonFunction",
-            "dbo:Profession",
             "dbo:ProgrammingLanguage"
         ]
     },
@@ -4767,6 +4766,7 @@
         "type": [
             "dbo:Album",
             "dbo:Band",
+            "dbo:Group",
             "dbo:MusicalWork",
             "dbo:Single",
             "dbo:Work"
@@ -4785,11 +4785,11 @@
         "question": "tell me castle whose name has the word odenburg in it",
         "category": "resource",
         "type": [
-            "dbo:Archipelago",
-            "dbo:CelestialBody",
-            "dbo:Constellation",
+            "dbo:Device",
+            "dbo:EthnicGroup",
             "dbo:Event",
-            "dbo:Mountain"
+            "dbo:Food",
+            "dbo:Weapon"
         ]
     },
     {
@@ -4809,7 +4809,6 @@
         "category": "resource",
         "type": [
             "dbo:Artist",
-            "dbo:Book",
             "dbo:ComicsCreator",
             "dbo:Person"
         ]
@@ -4845,7 +4844,6 @@
             "dbo:Country",
             "dbo:Location",
             "dbo:Media",
-            "dbo:Place",
             "dbo:Plant",
             "dbo:PopulatedPlace",
             "dbo:State"
@@ -4942,8 +4940,8 @@
         "question": "Which sports are played at institues in Taguig?",
         "category": "resource",
         "type": [
-            "dbo:Activity",
             "dbo:EducationalInstitution",
+            "dbo:Organisation",
             "dbo:Sport",
             "dbo:University"
         ]
@@ -5036,7 +5034,6 @@
             "dbo:Country",
             "dbo:Location",
             "dbo:Non-ProfitOrganisation",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -5078,6 +5075,7 @@
         "category": "resource",
         "type": [
             "dbo:AmericanFootballTeam",
+            "dbo:Location",
             "dbo:SoccerClub",
             "dbo:SportsTeam"
         ]
@@ -5181,7 +5179,6 @@
         "question": "Which is the medical treatment of psychotherapy?",
         "category": "resource",
         "type": [
-            "dbo:ChemicalCompound",
             "dbo:ChemicalSubstance",
             "dbo:MedicalSpecialty"
         ]
@@ -5280,11 +5277,9 @@
         "question": "What is the name of the capital of Estonia whose first letter is T ?",
         "category": "resource",
         "type": [
-            "dbo:Book",
             "dbo:Genre",
             "dbo:MusicGenre",
-            "dbo:Play",
-            "dbo:WrittenWork"
+            "dbo:Play"
         ]
     },
     {
@@ -5425,10 +5420,8 @@
         "category": "resource",
         "type": [
             "dbo:City",
-            "dbo:Location",
             "dbo:Person",
             "dbo:PopulatedPlace",
-            "dbo:Settlement",
             "dbo:Writer"
         ]
     },
@@ -5448,10 +5441,11 @@
         "question": "Where did Paul Verlaine die, whose Prime Minister is Jean Sylvain Bailly?",
         "category": "resource",
         "type": [
+            "dbo:City",
             "dbo:Location",
             "dbo:Place",
-            "dbo:PoliticalParty",
-            "dbo:PopulatedPlace"
+            "dbo:PopulatedPlace",
+            "dbo:Settlement"
         ]
     },
     {
@@ -5497,7 +5491,6 @@
         "question": "From where did Richard von Weizsacker win the recognition title of 1st place medalist of Medecins Sans Frontiers?",
         "category": "resource",
         "type": [
-            "dbo:AcademicSubject",
             "dbo:Award",
             "dbo:NobelPrize"
         ]
@@ -5547,7 +5540,6 @@
         "category": "resource",
         "type": [
             "dbo:Award",
-            "dbo:Book",
             "dbo:Film"
         ]
     },
@@ -5556,7 +5548,8 @@
         "question": "List the main ingredient of Pizza-ghetti ?",
         "category": "resource",
         "type": [
-            "dbo:Media"
+            "dbo:Artist",
+            "dbo:MusicalArtist"
         ]
     },
     {
@@ -5595,7 +5588,6 @@
             "dbo:Event",
             "dbo:HorseRace",
             "dbo:Race",
-            "dbo:SocietalEvent",
             "dbo:SportsEvent"
         ]
     },
@@ -5652,6 +5644,7 @@
         "question": "How long it the Jurassic Park game take to complete?",
         "category": "resource",
         "type": [
+            "dbo:BaseballTeam",
             "dbo:CyclingRace",
             "dbo:Location",
             "dbo:Place",
@@ -5674,6 +5667,7 @@
         "question": "Charles the Bald position is what and he got his position after which person?",
         "category": "resource",
         "type": [
+            "dbo:Media",
             "dbo:PersonFunction",
             "dbo:Profession"
         ]
@@ -5701,7 +5695,6 @@
         "question": "What is economic branch  member of  Leroy Merlin ?",
         "category": "resource",
         "type": [
-            "dbo:Activity",
             "dbo:MilitaryUnit",
             "dbo:PersonFunction",
             "dbo:Profession"
@@ -5713,7 +5706,6 @@
         "category": "resource",
         "type": [
             "dbo:Artist",
-            "dbo:Company",
             "dbo:MusicalArtist",
             "dbo:RecordLabel"
         ]
@@ -5828,8 +5820,8 @@
         "category": "resource",
         "type": [
             "dbo:City",
+            "dbo:Country",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Settlement",
             "dbo:State"
@@ -5886,7 +5878,6 @@
             "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Road",
-            "dbo:RouteOfTransportation",
             "dbo:State"
         ]
     },
@@ -5927,7 +5918,6 @@
         "question": "List the common sports played by Polytechnic University of the Philippines Bataan and Jamiatu Muslim Mindanao ?",
         "category": "resource",
         "type": [
-            "dbo:Activity",
             "dbo:Game",
             "dbo:Sport"
         ]
@@ -5960,7 +5950,6 @@
         "question": "who is author of Eug\u00e9nie Grandet",
         "category": "resource",
         "type": [
-            "dbo:Book",
             "dbo:Manga"
         ]
     },
@@ -5981,7 +5970,8 @@
         "question": "Tell me the ship type whose name has the word whaleback in it",
         "category": "resource",
         "type": [
-            "dbo:Media"
+            "dbo:EthnicGroup",
+            "dbo:Food"
         ]
     },
     {
@@ -5989,8 +5979,7 @@
         "question": "What is  the  fictional universe described in Marvel Cinematic Universe?",
         "category": "resource",
         "type": [
-            "dbo:Film",
-            "dbo:Work"
+            "dbo:Film"
         ]
     },
     {
@@ -6007,10 +5996,8 @@
         "category": "resource",
         "type": [
             "dbo:City",
-            "dbo:Location",
             "dbo:PersonFunction",
-            "dbo:PopulatedPlace",
-            "dbo:Settlement"
+            "dbo:PopulatedPlace"
         ]
     },
     {
@@ -6045,8 +6032,8 @@
             "dbo:Location",
             "dbo:Person",
             "dbo:Place",
-            "dbo:PopulatedPlace",
-            "dbo:SpaceMission"
+            "dbo:Software",
+            "dbo:Work"
         ]
     },
     {
@@ -6065,9 +6052,7 @@
         "type": [
             "dbo:Airline",
             "dbo:Airport",
-            "dbo:Location",
-            "dbo:Place",
-            "dbo:PopulatedPlace"
+            "dbo:Location"
         ]
     },
     {
@@ -6078,6 +6063,7 @@
             "dbo:Band",
             "dbo:Film",
             "dbo:Group",
+            "dbo:Organisation",
             "dbo:Person"
         ]
     },
@@ -6085,10 +6071,7 @@
         "id": "dbpedia_6796",
         "question": "What is Julian Assange's occupant's embassy?",
         "category": "resource",
-        "type": [
-            "dbo:Book",
-            "dbo:Software"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_7170",
@@ -6115,6 +6098,7 @@
         "category": "resource",
         "type": [
             "dbo:EducationalInstitution",
+            "dbo:Organisation",
             "dbo:University"
         ]
     },
@@ -6142,6 +6126,7 @@
         "category": "resource",
         "type": [
             "dbo:City",
+            "dbo:Country",
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
@@ -6154,7 +6139,8 @@
         "question": "Tell me about member of of George Lincoln Rockwell and military rank?",
         "category": "resource",
         "type": [
-            "dbo:MilitaryUnit"
+            "dbo:MilitaryUnit",
+            "dbo:OfficeHolder"
         ]
     },
     {
@@ -6204,7 +6190,10 @@
         "id": "dbpedia_10913",
         "question": "Tell meacademic major whose name has the word theory in it.",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:EthnicGroup",
+            "dbo:Food"
+        ]
     },
     {
         "id": "dbpedia_21429",
@@ -6228,7 +6217,6 @@
             "dbo:Country",
             "dbo:Location",
             "dbo:Mountain",
-            "dbo:Place",
             "dbo:PopulatedPlace"
         ]
     },
@@ -6239,6 +6227,7 @@
         "type": [
             "dbo:Athlete",
             "dbo:Company",
+            "dbo:Organisation",
             "dbo:WinterSportPlayer"
         ]
     },
@@ -6287,11 +6276,11 @@
             "dbo:Animal",
             "dbo:Cat",
             "dbo:Eukaryote",
-            "dbo:Language",
             "dbo:Location",
             "dbo:Mammal",
+            "dbo:PersonFunction",
             "dbo:Place",
-            "dbo:ProgrammingLanguage",
+            "dbo:Play",
             "dbo:Species"
         ]
     },
@@ -6343,6 +6332,7 @@
         "category": "resource",
         "type": [
             "dbo:Game",
+            "dbo:OfficeHolder",
             "dbo:Sport",
             "dbo:Writer"
         ]
@@ -6375,6 +6365,7 @@
         "category": "resource",
         "type": [
             "dbo:EducationalInstitution",
+            "dbo:Organisation",
             "dbo:University"
         ]
     },
@@ -6468,7 +6459,8 @@
         "type": [
             "dbo:MusicalWork",
             "dbo:Person",
-            "dbo:Single"
+            "dbo:Single",
+            "dbo:Work"
         ]
     },
     {
@@ -6558,8 +6550,7 @@
             "dbo:CelestialBody",
             "dbo:Constellation",
             "dbo:Location",
-            "dbo:MedicalSpecialty",
-            "dbo:Place"
+            "dbo:MedicalSpecialty"
         ]
     },
     {
@@ -6621,6 +6612,7 @@
         "category": "resource",
         "type": [
             "dbo:Activity",
+            "dbo:Food",
             "dbo:Name"
         ]
     },
@@ -6641,6 +6633,7 @@
             "dbo:EducationalInstitution",
             "dbo:EthnicGroup",
             "dbo:GridironFootballPlayer",
+            "dbo:Organisation",
             "dbo:University"
         ]
     },
@@ -6719,6 +6712,7 @@
             "dbo:Cleric",
             "dbo:Location",
             "dbo:Person",
+            "dbo:Place",
             "dbo:ReligiousBuilding",
             "dbo:Saint"
         ]
@@ -6770,7 +6764,6 @@
         "question": "What is the sports of the specialism of Angelo Piffarerio?",
         "category": "resource",
         "type": [
-            "dbo:Activity",
             "dbo:MedicalSpecialty",
             "dbo:SportsTeam"
         ]
@@ -6866,9 +6859,7 @@
             "dbo:City",
             "dbo:HockeyTeam",
             "dbo:Location",
-            "dbo:Place",
-            "dbo:PopulatedPlace",
-            "dbo:ReligiousBuilding"
+            "dbo:PopulatedPlace"
         ]
     },
     {
@@ -6895,6 +6886,7 @@
         "type": [
             "dbo:Activity",
             "dbo:Event",
+            "dbo:SocietalEvent",
             "dbo:SportsEvent",
             "dbo:SportsTeam",
             "dbo:Tournament"
@@ -6908,7 +6900,6 @@
             "dbo:Activity",
             "dbo:Country",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -6961,8 +6952,7 @@
         "type": [
             "dbo:Location",
             "dbo:Place",
-            "dbo:PopulatedPlace",
-            "dbo:Software"
+            "dbo:PopulatedPlace"
         ]
     },
     {
@@ -7027,7 +7017,6 @@
         "question": "Name a nationalist  political party that contains the word \"patriots \" in its name",
         "category": "resource",
         "type": [
-            "dbo:Activity",
             "dbo:Game",
             "dbo:PoliticalParty"
         ]
@@ -7300,7 +7289,6 @@
         "question": "What sports are played by school which owns Fr. Agnel Stadium ?",
         "category": "resource",
         "type": [
-            "dbo:Activity",
             "dbo:Game",
             "dbo:Sport"
         ]
@@ -7312,9 +7300,11 @@
         "type": [
             "dbo:Magazine",
             "dbo:OfficeHolder",
+            "dbo:PeriodicalLiterature",
             "dbo:Person",
             "dbo:Royalty",
-            "dbo:Scientist"
+            "dbo:Scientist",
+            "dbo:WrittenWork"
         ]
     },
     {
@@ -7323,7 +7313,6 @@
         "category": "resource",
         "type": [
             "dbo:City",
-            "dbo:Election",
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
@@ -7341,6 +7330,7 @@
         "question": "In how many different wars have people graduated from the Army Command and General staff college fought?",
         "category": "resource",
         "type": [
+            "dbo:Country",
             "dbo:Location",
             "dbo:Mammal",
             "dbo:MilitaryConflict",
@@ -7443,7 +7433,11 @@
         "id": "dbpedia_2492",
         "question": "WHICH IS THE CABLE STAYED BRIDGE WITH THE MAXIMUM NUMBER OF SPANS",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:BodyOfWater",
+            "dbo:River",
+            "dbo:Stream"
+        ]
     },
     {
         "id": "dbpedia_6156",
@@ -7466,6 +7460,7 @@
         "question": "What is the namesake of Maxwell relations, whose place of work is Cambridge?",
         "category": "resource",
         "type": [
+            "dbo:Building",
             "dbo:Church",
             "dbo:City",
             "dbo:Location",
@@ -7514,6 +7509,8 @@
         "question": "Which songwriter of Suite bergamasque died in Paris?",
         "category": "resource",
         "type": [
+            "dbo:City",
+            "dbo:Genre",
             "dbo:Location",
             "dbo:MusicGenre",
             "dbo:Non-ProfitOrganisation"
@@ -7582,6 +7579,7 @@
             "dbo:BodyOfWater",
             "dbo:Location",
             "dbo:NaturalPlace",
+            "dbo:Place",
             "dbo:River",
             "dbo:Stream"
         ]
@@ -7656,8 +7654,7 @@
         "question": "who is nominated for Natalie Wood that has work of Splendor in the Grass ?",
         "category": "resource",
         "type": [
-            "dbo:Award",
-            "dbo:Island"
+            "dbo:Award"
         ]
     },
     {
@@ -7666,6 +7663,7 @@
         "category": "resource",
         "type": [
             "dbo:Country",
+            "dbo:Location",
             "dbo:PopulatedPlace"
         ]
     },
@@ -7820,6 +7818,7 @@
         "type": [
             "dbo:Activity",
             "dbo:Event",
+            "dbo:SocietalEvent",
             "dbo:SportsEvent",
             "dbo:Tournament"
         ]
@@ -7915,6 +7914,7 @@
         "question": "The film Battleship Potemkin, that has been awarded the State Stalin Prize was directed by who?",
         "category": "resource",
         "type": [
+            "dbo:Award",
             "dbo:Film",
             "dbo:Work"
         ]
@@ -8129,6 +8129,7 @@
         "category": "resource",
         "type": [
             "dbo:City",
+            "dbo:Country",
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
@@ -8153,6 +8154,7 @@
             "dbo:Athlete",
             "dbo:GridironFootballPlayer",
             "dbo:HockeyTeam",
+            "dbo:Organisation",
             "dbo:SoccerPlayer",
             "dbo:SportsTeam"
         ]
@@ -8217,6 +8219,8 @@
         "category": "resource",
         "type": [
             "dbo:Continent",
+            "dbo:Country",
+            "dbo:Location",
             "dbo:Mountain",
             "dbo:PopulatedPlace",
             "dbo:State",
@@ -8303,7 +8307,6 @@
         "type": [
             "dbo:Language",
             "dbo:ProgrammingLanguage",
-            "dbo:Software",
             "dbo:Writer"
         ]
     },
@@ -8319,7 +8322,8 @@
         "category": "resource",
         "type": [
             "dbo:TelevisionShow",
-            "dbo:Writer"
+            "dbo:Writer",
+            "dbo:WrittenWork"
         ]
     },
     {
@@ -8434,7 +8438,8 @@
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
-            "dbo:Settlement"
+            "dbo:Settlement",
+            "dbo:State"
         ]
     },
     {
@@ -8461,7 +8466,6 @@
         "type": [
             "dbo:Country",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -8550,7 +8554,6 @@
         "question": "Where is Richard Stites located ?",
         "category": "resource",
         "type": [
-            "dbo:City",
             "dbo:Location",
             "dbo:Place"
         ]
@@ -8568,10 +8571,8 @@
         "question": "What's the religion of the winner of china election of 2008?",
         "category": "resource",
         "type": [
-            "dbo:Book",
             "dbo:EthnicGroup",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -8637,6 +8638,7 @@
         "question": "What medical condition is treated with Sodium Bicarbonate?",
         "category": "resource",
         "type": [
+            "dbo:ChemicalSubstance",
             "dbo:Disease"
         ]
     },
@@ -8663,11 +8665,9 @@
         "type": [
             "dbo:Airport",
             "dbo:BodyOfWater",
-            "dbo:Infrastructure",
             "dbo:Location",
             "dbo:NaturalPlace",
             "dbo:Place",
-            "dbo:PopulatedPlace",
             "dbo:River",
             "dbo:Stream"
         ]
@@ -8718,6 +8718,7 @@
         "question": "What influenced Georges Bataille that studied at Eberhard-Ludwigs Gymnasium?",
         "category": "resource",
         "type": [
+            "dbo:EducationalInstitution",
             "dbo:Philosopher"
         ]
     },
@@ -8729,6 +8730,7 @@
             "dbo:Athlete",
             "dbo:Company",
             "dbo:OfficeHolder",
+            "dbo:Organisation",
             "dbo:Person",
             "dbo:RecordLabel",
             "dbo:WinterSportPlayer"
@@ -8778,7 +8780,8 @@
             "dbo:MusicalWork",
             "dbo:Opera",
             "dbo:Person",
-            "dbo:Single"
+            "dbo:Single",
+            "dbo:Work"
         ]
     },
     {
@@ -8830,10 +8833,7 @@
         "id": "dbpedia_19499",
         "question": "who manufactures the SHO V8?",
         "category": "resource",
-        "type": [
-            "dbo:Device",
-            "dbo:InformationAppliance"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_22166",
@@ -9041,8 +9041,8 @@
             "dbo:Airline",
             "dbo:Airport",
             "dbo:ArchitecturalStructure",
+            "dbo:Company",
             "dbo:Infrastructure",
-            "dbo:Location",
             "dbo:PublicTransitSystem"
         ]
     },
@@ -9109,6 +9109,7 @@
             "dbo:MusicalArtist",
             "dbo:MusicalWork",
             "dbo:Opera",
+            "dbo:Work",
             "dbo:WrittenWork"
         ]
     },
@@ -9241,7 +9242,6 @@
         "category": "resource",
         "type": [
             "dbo:Athlete",
-            "dbo:City",
             "dbo:EducationalInstitution",
             "dbo:Organisation",
             "dbo:PersonFunction",
@@ -9362,8 +9362,7 @@
         "question": "Which series has an episode called The lost special and also a character named Sherlock Holmes ?",
         "category": "resource",
         "type": [
-            "dbo:FictionalCharacter",
-            "dbo:TelevisionShow"
+            "dbo:FictionalCharacter"
         ]
     },
     {
@@ -9518,7 +9517,6 @@
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
-            "dbo:Settlement",
             "dbo:State"
         ]
     },
@@ -9705,7 +9703,8 @@
         "category": "resource",
         "type": [
             "dbo:Activity",
-            "dbo:Musical"
+            "dbo:Musical",
+            "dbo:MusicalWork"
         ]
     },
     {
@@ -9714,7 +9713,6 @@
         "category": "resource",
         "type": [
             "dbo:City",
-            "dbo:Location",
             "dbo:PopulatedPlace",
             "dbo:Settlement"
         ]
@@ -9756,7 +9754,7 @@
         "type": [
             "dbo:ArchitecturalStructure",
             "dbo:Building",
-            "dbo:Location",
+            "dbo:Company",
             "dbo:Skyscraper"
         ]
     },
@@ -9858,6 +9856,7 @@
             "dbo:Band",
             "dbo:Country",
             "dbo:Group",
+            "dbo:Location",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -9887,7 +9886,6 @@
         "type": [
             "dbo:Airport",
             "dbo:Company",
-            "dbo:Infrastructure",
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace"
@@ -9906,7 +9904,6 @@
         "question": "Who was Sarah Michelle Gellar's spouse and child?",
         "category": "resource",
         "type": [
-            "dbo:Ideology",
             "dbo:Person",
             "dbo:PoliticalParty"
         ]
@@ -9995,6 +9992,7 @@
         "type": [
             "dbo:ArchitecturalStructure",
             "dbo:Infrastructure",
+            "dbo:Location",
             "dbo:MeanOfTransportation",
             "dbo:Road",
             "dbo:RouteOfTransportation",
@@ -10019,6 +10017,7 @@
             "dbo:IceHockeyPlayer",
             "dbo:Non-ProfitOrganisation",
             "dbo:OfficeHolder",
+            "dbo:Organisation",
             "dbo:Person",
             "dbo:WinterSportPlayer"
         ]
@@ -10031,7 +10030,6 @@
             "dbo:Cemetery",
             "dbo:Church",
             "dbo:Location",
-            "dbo:Place",
             "dbo:Valley"
         ]
     },
@@ -10048,6 +10046,7 @@
         "type": [
             "dbo:BodyOfWater",
             "dbo:City",
+            "dbo:Country",
             "dbo:Location",
             "dbo:NaturalPlace",
             "dbo:Ocean",
@@ -10131,7 +10130,6 @@
         "question": "What is the works for Richie Benaud, having recognition title of Satellite Award for Best Miniseries?",
         "category": "resource",
         "type": [
-            "dbo:AcademicSubject",
             "dbo:Award",
             "dbo:Film"
         ]
@@ -10380,7 +10378,7 @@
             "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Region",
-            "dbo:Royalty"
+            "dbo:State"
         ]
     },
     {
@@ -10445,7 +10443,6 @@
         "type": [
             "dbo:City",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Settlement"
         ]
@@ -10786,7 +10783,6 @@
         "question": "Was Tonya Harding a professional pair ice skater?",
         "category": "resource",
         "type": [
-            "dbo:Band",
             "dbo:Group"
         ]
     },
@@ -10866,7 +10862,6 @@
             "dbo:BodyOfWater",
             "dbo:Location",
             "dbo:NaturalPlace",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:River",
             "dbo:State",
@@ -10987,10 +10982,7 @@
         "id": "dbpedia_19798",
         "question": "What is pitro Gruszka hometown ?",
         "category": "resource",
-        "type": [
-            "dbo:City",
-            "dbo:PopulatedPlace"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_21254",
@@ -11003,12 +10995,10 @@
             "dbo:Infrastructure",
             "dbo:Location",
             "dbo:Mountain",
-            "dbo:NaturalPlace",
             "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Road",
-            "dbo:RouteOfTransportation",
-            "dbo:Settlement"
+            "dbo:RouteOfTransportation"
         ]
     },
     {
@@ -11177,14 +11167,19 @@
         "category": "resource",
         "type": [
             "dbo:Company",
-            "dbo:Language"
+            "dbo:Language",
+            "dbo:ProgrammingLanguage"
         ]
     },
     {
         "id": "dbpedia_16329",
         "question": "Tell me mosque whose name has the word sultan in it.",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:Device",
+            "dbo:Food",
+            "dbo:Weapon"
+        ]
     },
     {
         "id": "dbpedia_10959",
@@ -11336,6 +11331,7 @@
             "dbo:Location",
             "dbo:Media",
             "dbo:NaturalPlace",
+            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Sea",
             "dbo:Settlement"
@@ -11422,7 +11418,7 @@
         "type": [
             "dbo:EthnicGroup",
             "dbo:Location",
-            "dbo:Place",
+            "dbo:OfficeHolder",
             "dbo:PopulatedPlace"
         ]
     },
@@ -11589,7 +11585,13 @@
         "id": "dbpedia_984",
         "question": "Which central bank has the highest target interest rate ?",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:ArchitecturalStructure",
+            "dbo:Infrastructure",
+            "dbo:Location",
+            "dbo:Place",
+            "dbo:Port"
+        ]
     },
     {
         "id": "dbpedia_17682",
@@ -11605,9 +11607,7 @@
         "category": "resource",
         "type": [
             "dbo:EducationalInstitution",
-            "dbo:PersonFunction",
-            "dbo:Profession",
-            "dbo:University"
+            "dbo:PersonFunction"
         ]
     },
     {
@@ -11616,10 +11616,8 @@
         "category": "resource",
         "type": [
             "dbo:City",
-            "dbo:Location",
             "dbo:Person",
             "dbo:PopulatedPlace",
-            "dbo:Settlement",
             "dbo:Writer"
         ]
     },
@@ -11662,7 +11660,6 @@
             "dbo:Legislature",
             "dbo:Location",
             "dbo:MeanOfTransportation",
-            "dbo:Place",
             "dbo:RailwayStation",
             "dbo:Software",
             "dbo:Spacecraft",
@@ -11747,6 +11744,7 @@
         "type": [
             "dbo:AnatomicalStructure",
             "dbo:Cat",
+            "dbo:Language",
             "dbo:ProgrammingLanguage"
         ]
     },
@@ -11799,6 +11797,7 @@
         "category": "resource",
         "type": [
             "dbo:City",
+            "dbo:Country",
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
@@ -11834,10 +11833,9 @@
             "dbo:Activity",
             "dbo:BoardGame",
             "dbo:Game",
-            "dbo:GovernmentAgency",
             "dbo:Location",
-            "dbo:Place",
-            "dbo:PopulatedPlace"
+            "dbo:PopulatedPlace",
+            "dbo:State"
         ]
     },
     {
@@ -11859,13 +11857,12 @@
         "question": "Which university are the archives of Jefferson Davis at?",
         "category": "resource",
         "type": [
+            "dbo:ArchitecturalStructure",
             "dbo:Building",
             "dbo:EducationalInstitution",
             "dbo:Library",
             "dbo:Location",
-            "dbo:Museum",
-            "dbo:Place",
-            "dbo:PopulatedPlace"
+            "dbo:Museum"
         ]
     },
     {
@@ -11934,8 +11931,7 @@
             "dbo:Cemetery",
             "dbo:Church",
             "dbo:Location",
-            "dbo:NaturalPlace",
-            "dbo:Place",
+            "dbo:ReligiousBuilding",
             "dbo:Valley"
         ]
     },
@@ -11954,14 +11950,18 @@
         "category": "resource",
         "type": [
             "dbo:MilitaryConflict",
-            "dbo:MilitaryPerson"
+            "dbo:MilitaryPerson",
+            "dbo:OfficeHolder"
         ]
     },
     {
         "id": "dbpedia_9507",
         "question": "Tell me business whose name has the word vodafone in it.",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:Device",
+            "dbo:EthnicGroup"
+        ]
     },
     {
         "id": "dbpedia_16336",
@@ -12092,6 +12092,7 @@
         "question": "What is the national origin of Focke-Wulf Fw 260 ?",
         "category": "resource",
         "type": [
+            "dbo:Location",
             "dbo:PopulatedPlace"
         ]
     },
@@ -12108,9 +12109,7 @@
         "id": "dbpedia_19513",
         "question": "Where was Henri, Duke of Rohan laid to rest?",
         "category": "resource",
-        "type": [
-            "dbo:City"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_11960",
@@ -12140,7 +12139,6 @@
             "dbo:Constellation",
             "dbo:Location",
             "dbo:MeanOfTransportation",
-            "dbo:Place",
             "dbo:Planet",
             "dbo:Ship"
         ]
@@ -12177,6 +12175,7 @@
         "type": [
             "dbo:EducationalInstitution",
             "dbo:Game",
+            "dbo:Organisation",
             "dbo:Sport"
         ]
     },
@@ -12185,7 +12184,6 @@
         "question": "Who is the author of Walden?",
         "category": "resource",
         "type": [
-            "dbo:Book",
             "dbo:Person"
         ]
     },
@@ -12280,6 +12278,7 @@
             "dbo:Airport",
             "dbo:ArchitecturalStructure",
             "dbo:City",
+            "dbo:Country",
             "dbo:Infrastructure",
             "dbo:Island",
             "dbo:Location",
@@ -12312,9 +12311,9 @@
             "dbo:Country",
             "dbo:Island",
             "dbo:Language",
+            "dbo:Location",
             "dbo:PopulatedPlace",
-            "dbo:ProgrammingLanguage",
-            "dbo:Software"
+            "dbo:ProgrammingLanguage"
         ]
     },
     {
@@ -12331,10 +12330,7 @@
         "category": "resource",
         "type": [
             "dbo:City",
-            "dbo:Location",
-            "dbo:Place",
-            "dbo:PopulatedPlace",
-            "dbo:Settlement"
+            "dbo:Location"
         ]
     },
     {
@@ -12370,8 +12366,7 @@
         "question": "What was the award received by Robert Bresson for his work on L'Argent?",
         "category": "resource",
         "type": [
-            "dbo:Award",
-            "dbo:Book"
+            "dbo:Award"
         ]
     },
     {
@@ -12439,8 +12434,6 @@
         "question": "What is the location of the formation that is named after Lynyrd Skynyrd?",
         "category": "resource",
         "type": [
-            "dbo:Group",
-            "dbo:Non-ProfitOrganisation",
             "dbo:Town"
         ]
     },
@@ -12461,7 +12454,6 @@
         "question": "Who offers the services of OneDrive and Outlook.com?",
         "category": "resource",
         "type": [
-            "dbo:Company",
             "dbo:Tax"
         ]
     },
@@ -12471,6 +12463,8 @@
         "category": "resource",
         "type": [
             "dbo:HockeyTeam",
+            "dbo:Location",
+            "dbo:SportsEvent",
             "dbo:SportsLeague",
             "dbo:SportsTeam",
             "dbo:Tournament",
@@ -12549,7 +12543,6 @@
         "type": [
             "dbo:Country",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -12587,7 +12580,8 @@
         "question": "who played Dr. John Watson in Sherlock Holmes?",
         "category": "resource",
         "type": [
-            "dbo:Company"
+            "dbo:Company",
+            "dbo:Organisation"
         ]
     },
     {
@@ -12661,7 +12655,6 @@
         "category": "resource",
         "type": [
             "dbo:Agent",
-            "dbo:MeanOfTransportation",
             "dbo:Person",
             "dbo:Ship"
         ]
@@ -12680,6 +12673,7 @@
         "category": "resource",
         "type": [
             "dbo:City",
+            "dbo:Country",
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
@@ -12910,7 +12904,6 @@
         "type": [
             "dbo:Country",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -12977,6 +12970,7 @@
         "question": "Where did the Biblical story of Exodus take place?",
         "category": "resource",
         "type": [
+            "dbo:ArchitecturalStructure",
             "dbo:BodyOfWater",
             "dbo:City",
             "dbo:Location",
@@ -13155,7 +13149,6 @@
         "question": "Name the actors of the TV show which has an episode named The Five ?",
         "category": "resource",
         "type": [
-            "dbo:Film",
             "dbo:TelevisionShow",
             "dbo:Work"
         ]
@@ -13179,7 +13172,6 @@
         "type": [
             "dbo:Location",
             "dbo:Person",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -13259,6 +13251,7 @@
         "category": "resource",
         "type": [
             "dbo:Activity",
+            "dbo:Eukaryote",
             "dbo:HockeyTeam",
             "dbo:Mammal",
             "dbo:Plant",
@@ -13280,7 +13273,8 @@
         "category": "resource",
         "type": [
             "dbo:MountainRange",
-            "dbo:Taxon"
+            "dbo:Taxon",
+            "dbo:TopicalConcept"
         ]
     },
     {
@@ -13297,6 +13291,7 @@
         "category": "resource",
         "type": [
             "dbo:Bridge",
+            "dbo:Infrastructure",
             "dbo:Location",
             "dbo:Mountain",
             "dbo:MountainRange",
@@ -13339,8 +13334,7 @@
         "question": "Which company was the designer of South African class 11e and RENFE class 333 ?",
         "category": "resource",
         "type": [
-            "dbo:Company",
-            "dbo:SportsTeam"
+            "dbo:Company"
         ]
     },
     {
@@ -13416,6 +13410,7 @@
             "dbo:CelestialBody",
             "dbo:Eukaryote",
             "dbo:Galaxy",
+            "dbo:Location",
             "dbo:Mammal",
             "dbo:Species"
         ]
@@ -13514,7 +13509,6 @@
             "dbo:Band",
             "dbo:CollegeCoach",
             "dbo:EthnicGroup",
-            "dbo:Eukaryote",
             "dbo:GridironFootballPlayer",
             "dbo:Mammal",
             "dbo:Plant",
@@ -13591,7 +13585,6 @@
             "dbo:Lake",
             "dbo:Location",
             "dbo:NaturalPlace",
-            "dbo:Place",
             "dbo:River",
             "dbo:Sea",
             "dbo:Stream"
@@ -13610,7 +13603,6 @@
         "question": "What is the mascot of the Royal Australian Air Force and Austin College?",
         "category": "resource",
         "type": [
-            "dbo:Company",
             "dbo:MilitaryUnit"
         ]
     },
@@ -13662,9 +13654,7 @@
         "question": "Which is the university that used the Russian language?",
         "category": "resource",
         "type": [
-            "dbo:Island",
-            "dbo:Location",
-            "dbo:Software"
+            "dbo:Island"
         ]
     },
     {
@@ -13683,10 +13673,8 @@
         "type": [
             "dbo:HockeyTeam",
             "dbo:Person",
-            "dbo:SoccerClub",
             "dbo:SoccerManager",
             "dbo:SoccerPlayer",
-            "dbo:SportsClub",
             "dbo:SportsManager",
             "dbo:SportsTeam"
         ]
@@ -13762,6 +13750,7 @@
         "type": [
             "dbo:BroadcastNetwork",
             "dbo:Broadcaster",
+            "dbo:Organisation",
             "dbo:TelevisionShow",
             "dbo:TelevisionStation",
             "dbo:Work"
@@ -13799,9 +13788,7 @@
         "id": "dbpedia_15252",
         "question": "What are the gambling which start with the letter Z",
         "category": "resource",
-        "type": [
-            "dbo:Opera"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_15465",
@@ -13863,6 +13850,7 @@
         "category": "resource",
         "type": [
             "dbo:City",
+            "dbo:Country",
             "dbo:Location",
             "dbo:Media",
             "dbo:Place",
@@ -13876,7 +13864,8 @@
         "question": "Tell me hot spring whose name has the word unapdev in it.",
         "category": "resource",
         "type": [
-            "dbo:Archipelago"
+            "dbo:EthnicGroup",
+            "dbo:Food"
         ]
     },
     {
@@ -13969,6 +13958,7 @@
         "category": "resource",
         "type": [
             "dbo:Company",
+            "dbo:Organisation",
             "dbo:Person"
         ]
     },
@@ -13989,7 +13979,6 @@
         "category": "resource",
         "type": [
             "dbo:Asteroid",
-            "dbo:CelestialBody",
             "dbo:Person"
         ]
     },
@@ -14158,8 +14147,7 @@
         "question": "What is the first described of the ideology of Progressive Party?",
         "category": "resource",
         "type": [
-            "dbo:Ideology",
-            "dbo:Town"
+            "dbo:Ideology"
         ]
     },
     {
@@ -14188,7 +14176,6 @@
         "question": "What is executive branch of basin countries of Tigris ?",
         "category": "resource",
         "type": [
-            "dbo:BodyOfWater",
             "dbo:City",
             "dbo:Country",
             "dbo:EthnicGroup",
@@ -14197,7 +14184,6 @@
             "dbo:NaturalPlace",
             "dbo:Place",
             "dbo:PopulatedPlace",
-            "dbo:Settlement",
             "dbo:State"
         ]
     },
@@ -14229,7 +14215,8 @@
         "question": "For what role was Angelina Jolie nominated for an Academy Award for Best Actress?",
         "category": "resource",
         "type": [
-            "dbo:Film"
+            "dbo:Film",
+            "dbo:Work"
         ]
     },
     {
@@ -14257,9 +14244,7 @@
         "id": "dbpedia_1915",
         "question": "What is Animal Farm derivative work?",
         "category": "resource",
-        "type": [
-            "dbo:Book"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_20616",
@@ -14286,7 +14271,6 @@
             "dbo:Governor",
             "dbo:Location",
             "dbo:Person",
-            "dbo:Place",
             "dbo:Politician",
             "dbo:PopulatedPlace",
             "dbo:State"
@@ -14335,7 +14319,6 @@
             "dbo:City",
             "dbo:Country",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PoliticalParty",
             "dbo:PopulatedPlace",
             "dbo:State"
@@ -14446,6 +14429,7 @@
         "category": "resource",
         "type": [
             "dbo:Family",
+            "dbo:Library",
             "dbo:NobleFamily"
         ]
     },
@@ -14502,8 +14486,7 @@
         "question": "Which is etymology of Planck length, that plays piano?",
         "category": "resource",
         "type": [
-            "dbo:Island",
-            "dbo:Location"
+            "dbo:Island"
         ]
     },
     {
@@ -14581,6 +14564,7 @@
         "question": "Who was awared star on Hollywood Walk of Fame together with Joseph Barbera?",
         "category": "resource",
         "type": [
+            "dbo:Media",
             "dbo:Person",
             "dbo:Work"
         ]
@@ -14728,8 +14712,7 @@
         "question": "What award did Robert Zemeckis receive for his work in Forrest Gump?",
         "category": "resource",
         "type": [
-            "dbo:Award",
-            "dbo:Book"
+            "dbo:Award"
         ]
     },
     {
@@ -14774,6 +14757,7 @@
             "dbo:Aircraft",
             "dbo:BaseballTeam",
             "dbo:MeanOfTransportation",
+            "dbo:SportsTeam",
             "dbo:Train"
         ]
     },
@@ -14811,9 +14795,7 @@
         "question": "Name a small planet that contains the word \" 90377\" in its name",
         "category": "resource",
         "type": [
-            "dbo:Activity",
             "dbo:Game",
-            "dbo:Location",
             "dbo:Media"
         ]
     },
@@ -14863,9 +14845,7 @@
             "dbo:City",
             "dbo:Country",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
-            "dbo:Settlement",
             "dbo:State"
         ]
     },
@@ -15049,6 +15029,7 @@
         "category": "resource",
         "type": [
             "dbo:City",
+            "dbo:Country",
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
@@ -15136,7 +15117,12 @@
         "id": "dbpedia_10713",
         "question": "TELL ME BASEBALL TEAM WHOSE NAME HAS THE WORD AGUILAS IN IT.",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:Device",
+            "dbo:EthnicGroup",
+            "dbo:Food",
+            "dbo:Weapon"
+        ]
     },
     {
         "id": "dbpedia_4351",
@@ -15365,8 +15351,6 @@
         "type": [
             "dbo:Bank",
             "dbo:Family",
-            "dbo:Genre",
-            "dbo:MusicGenre",
             "dbo:NobleFamily"
         ]
     },
@@ -15473,6 +15457,7 @@
         "category": "resource",
         "type": [
             "dbo:Location",
+            "dbo:Organisation",
             "dbo:Place",
             "dbo:PopulatedPlace"
         ]
@@ -15578,6 +15563,7 @@
         "category": "resource",
         "type": [
             "dbo:Athlete",
+            "dbo:OfficeHolder",
             "dbo:RugbyPlayer",
             "dbo:Writer"
         ]
@@ -15639,7 +15625,6 @@
         "question": "Who is known for are Battle of the Thames and War of 1812?",
         "category": "resource",
         "type": [
-            "dbo:City",
             "dbo:EthnicGroup",
             "dbo:Location",
             "dbo:MilitaryPerson",
@@ -15696,7 +15681,6 @@
             "dbo:Device",
             "dbo:Lighthouse",
             "dbo:Location",
-            "dbo:Place",
             "dbo:Tower",
             "dbo:Weapon"
         ]
@@ -15821,7 +15805,8 @@
             "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Road",
-            "dbo:RouteOfTransportation"
+            "dbo:RouteOfTransportation",
+            "dbo:Settlement"
         ]
     },
     {
@@ -15988,6 +15973,7 @@
         "type": [
             "dbo:Activity",
             "dbo:Event",
+            "dbo:MusicalWork",
             "dbo:Single",
             "dbo:SocietalEvent",
             "dbo:SportsEvent",
@@ -16036,8 +16022,7 @@
         "question": "Name someone ilvolved in Battle of Verdun",
         "category": "resource",
         "type": [
-            "dbo:PersonFunction",
-            "dbo:Profession"
+            "dbo:PersonFunction"
         ]
     },
     {
@@ -16180,7 +16165,9 @@
         "id": "dbpedia_321",
         "question": "When was Vasily Chuikov awarded the Order of Lenin?",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:Award"
+        ]
     },
     {
         "id": "dbpedia_20646",
@@ -16200,6 +16187,7 @@
         "category": "resource",
         "type": [
             "dbo:Country",
+            "dbo:Location",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -16233,6 +16221,7 @@
         "type": [
             "dbo:Athlete",
             "dbo:Judge",
+            "dbo:OfficeHolder",
             "dbo:Philosopher",
             "dbo:RugbyPlayer",
             "dbo:Writer"
@@ -16250,7 +16239,9 @@
         "id": "dbpedia_12152",
         "question": "who named for the classical mechanics,that has craft of philosopher?",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:VideoGame"
+        ]
     },
     {
         "id": "dbpedia_1586",
@@ -16323,10 +16314,12 @@
         "category": "resource",
         "type": [
             "dbo:City",
+            "dbo:Country",
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
-            "dbo:Settlement"
+            "dbo:Settlement",
+            "dbo:State"
         ]
     },
     {
@@ -16335,10 +16328,12 @@
         "category": "resource",
         "type": [
             "dbo:BodyOfWater",
+            "dbo:Location",
             "dbo:NaturalPlace",
             "dbo:Ocean",
             "dbo:PopulatedPlace",
             "dbo:River",
+            "dbo:State",
             "dbo:Stream"
         ]
     },
@@ -16366,7 +16361,8 @@
         "question": "Were Karachi and Kunming adminstrators of Kolkata?",
         "category": "resource",
         "type": [
-            "dbo:Road"
+            "dbo:Road",
+            "dbo:RouteOfTransportation"
         ]
     },
     {
@@ -16374,6 +16370,7 @@
         "question": "Which disease has the longest incubation period and whose primary symptoms include abdominal pain?",
         "category": "resource",
         "type": [
+            "dbo:ArchitecturalStructure",
             "dbo:Disease",
             "dbo:Infrastructure",
             "dbo:Road",
@@ -16395,7 +16392,6 @@
         "type": [
             "dbo:City",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace"
         ]
     },
@@ -16466,10 +16462,7 @@
         "id": "dbpedia_1702",
         "question": "Tell me posthumous work whose name has the word people in it.",
         "category": "resource",
-        "type": [
-            "dbo:Archipelago",
-            "dbo:Constellation"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_913",
@@ -16539,8 +16532,8 @@
             "dbo:Activity",
             "dbo:Company",
             "dbo:Continent",
+            "dbo:Country",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace"
         ]
     },
@@ -16575,6 +16568,7 @@
         "type": [
             "dbo:Location",
             "dbo:MilitaryUnit",
+            "dbo:Place",
             "dbo:PublicTransitSystem"
         ]
     },
@@ -16607,6 +16601,7 @@
         "question": "Who is the party chair for the position of Xi Jinping?",
         "category": "resource",
         "type": [
+            "dbo:Deity",
             "dbo:Person",
             "dbo:Politician"
         ]
@@ -16709,6 +16704,7 @@
         "category": "resource",
         "type": [
             "dbo:City",
+            "dbo:Country",
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace"
@@ -16727,7 +16723,6 @@
         "question": "What country does Zinedine Zidane play sports for?",
         "category": "resource",
         "type": [
-            "dbo:Activity",
             "dbo:Sport",
             "dbo:SportsTeam"
         ]
@@ -16745,7 +16740,6 @@
         "question": "Name a skyscraper that contains the word \" world\" in its name",
         "category": "resource",
         "type": [
-            "dbo:Activity",
             "dbo:Game"
         ]
     },
@@ -16801,7 +16795,6 @@
             "dbo:CelestialBody",
             "dbo:Constellation",
             "dbo:Galaxy",
-            "dbo:Location",
             "dbo:Planet"
         ]
     },
@@ -16818,8 +16811,10 @@
         "question": "Which were the philosophers whose primary interest was Natural philosophy?",
         "category": "resource",
         "type": [
+            "dbo:Continent",
             "dbo:Philosopher",
-            "dbo:Road"
+            "dbo:Road",
+            "dbo:RouteOfTransportation"
         ]
     },
     {
@@ -16835,10 +16830,8 @@
         "question": "What is the periodical literature with the minimum publication interval such that the language of work or name is Spanish?",
         "category": "resource",
         "type": [
-            "dbo:Book",
             "dbo:Language",
-            "dbo:ProgrammingLanguage",
-            "dbo:Software"
+            "dbo:ProgrammingLanguage"
         ]
     },
     {
@@ -16859,7 +16852,6 @@
             "dbo:ArchitecturalStructure",
             "dbo:Building",
             "dbo:Location",
-            "dbo:Place",
             "dbo:Skyscraper",
             "dbo:Software",
             "dbo:VideoGame"
@@ -16947,9 +16939,7 @@
         "type": [
             "dbo:City",
             "dbo:Location",
-            "dbo:Place",
-            "dbo:PopulatedPlace",
-            "dbo:Settlement"
+            "dbo:PopulatedPlace"
         ]
     },
     {
@@ -16957,6 +16947,7 @@
         "question": "Who played Naomi in How I Met Your Mother?",
         "category": "resource",
         "type": [
+            "dbo:Organisation",
             "dbo:Person",
             "dbo:PersonFunction",
             "dbo:Profession"
@@ -16977,8 +16968,9 @@
         "type": [
             "dbo:EducationalInstitution",
             "dbo:Location",
+            "dbo:Media",
+            "dbo:Organisation",
             "dbo:Place",
-            "dbo:PopulatedPlace",
             "dbo:University"
         ]
     },
@@ -17030,7 +17022,6 @@
         "type": [
             "dbo:Book",
             "dbo:Continent",
-            "dbo:Location",
             "dbo:Work",
             "dbo:WrittenWork"
         ]
@@ -17062,6 +17053,7 @@
         "category": "resource",
         "type": [
             "dbo:AcademicSubject",
+            "dbo:Company",
             "dbo:EducationalInstitution",
             "dbo:Organisation",
             "dbo:University"
@@ -17071,7 +17063,9 @@
         "id": "dbpedia_17525",
         "question": "what is standards organization that starts with t",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:Activity"
+        ]
     },
     {
         "id": "dbpedia_15731",
@@ -17283,6 +17277,7 @@
         "type": [
             "dbo:BodyOfWater",
             "dbo:City",
+            "dbo:Country",
             "dbo:Location",
             "dbo:NaturalPlace",
             "dbo:Place",
@@ -17331,6 +17326,7 @@
         "question": "In which museum is Hadrian buried?",
         "category": "resource",
         "type": [
+            "dbo:Country",
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
@@ -17418,7 +17414,6 @@
         "question": "\"Which actor in The Godfather was educated at Hofstra University?",
         "category": "resource",
         "type": [
-            "dbo:Book",
             "dbo:EducationalInstitution",
             "dbo:Organisation",
             "dbo:University"
@@ -17601,6 +17596,7 @@
         "category": "resource",
         "type": [
             "dbo:Event",
+            "dbo:MusicalWork",
             "dbo:Single"
         ]
     },
@@ -17687,7 +17683,6 @@
             "dbo:Organisation",
             "dbo:Place",
             "dbo:PopulatedPlace",
-            "dbo:Settlement",
             "dbo:Village"
         ]
     },
@@ -17711,6 +17706,7 @@
         "type": [
             "dbo:EducationalInstitution",
             "dbo:EthnicGroup",
+            "dbo:Organisation",
             "dbo:University"
         ]
     },
@@ -17732,6 +17728,7 @@
         "question": "What tournament had the most matches end up in a draw?",
         "category": "resource",
         "type": [
+            "dbo:Event",
             "dbo:SportsEvent",
             "dbo:Tournament"
         ]
@@ -17934,7 +17931,8 @@
             "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Road",
-            "dbo:RouteOfTransportation"
+            "dbo:RouteOfTransportation",
+            "dbo:Settlement"
         ]
     },
     {
@@ -17958,7 +17956,6 @@
         "category": "resource",
         "type": [
             "dbo:Artist",
-            "dbo:Company",
             "dbo:MusicalArtist",
             "dbo:RecordLabel",
             "dbo:TelevisionShow",
@@ -18201,7 +18198,6 @@
             "dbo:EthnicGroup",
             "dbo:Location",
             "dbo:MilitaryConflict",
-            "dbo:Place",
             "dbo:PopulatedPlace"
         ]
     },
@@ -18218,6 +18214,7 @@
         "question": "What is Snow White's name",
         "category": "resource",
         "type": [
+            "dbo:Device",
             "dbo:Lighthouse",
             "dbo:Tower"
         ]
@@ -18322,7 +18319,6 @@
         "type": [
             "dbo:CelestialBody",
             "dbo:Constellation",
-            "dbo:Location",
             "dbo:MeanOfTransportation",
             "dbo:Planet",
             "dbo:Spacecraft"
@@ -18340,7 +18336,8 @@
         "category": "resource",
         "type": [
             "dbo:Ideology",
-            "dbo:Person"
+            "dbo:Person",
+            "dbo:PoliticalParty"
         ]
     },
     {
@@ -18367,7 +18364,8 @@
         "question": "Tell me occupational carcinogen whose name has the word trichloropropane in it.",
         "category": "resource",
         "type": [
-            "dbo:Activity"
+            "dbo:Activity",
+            "dbo:ChemicalSubstance"
         ]
     },
     {
@@ -18381,7 +18379,6 @@
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
-            "dbo:Settlement",
             "dbo:State"
         ]
     },
@@ -18448,7 +18445,6 @@
         "question": "What is the narrative time described by the work of William Weatherall Wilkins?",
         "category": "resource",
         "type": [
-            "dbo:Book",
             "dbo:PersonFunction",
             "dbo:Profession"
         ]
@@ -18614,9 +18610,11 @@
         "category": "resource",
         "type": [
             "dbo:CelestialBody",
+            "dbo:City",
             "dbo:Location",
             "dbo:Place",
-            "dbo:Planet"
+            "dbo:Planet",
+            "dbo:PopulatedPlace"
         ]
     },
     {
@@ -18668,7 +18666,6 @@
         "question": "What is the PTSD treatment medicine?",
         "category": "resource",
         "type": [
-            "dbo:ChemicalCompound",
             "dbo:ChemicalSubstance",
             "dbo:Disease"
         ]
@@ -18703,11 +18700,9 @@
         "question": "Is New Jersey next to Quer\u00e9taro, a subdivided neighborhood?",
         "category": "resource",
         "type": [
-            "dbo:City",
             "dbo:Location",
             "dbo:MilitaryUnit",
-            "dbo:Place",
-            "dbo:PopulatedPlace"
+            "dbo:Place"
         ]
     },
     {
@@ -18790,8 +18785,7 @@
         "category": "resource",
         "type": [
             "dbo:AmericanFootballTeam",
-            "dbo:SoccerClub",
-            "dbo:SportsTeam"
+            "dbo:SoccerClub"
         ]
     },
     {
@@ -18809,8 +18803,7 @@
         "type": [
             "dbo:EducationalInstitution",
             "dbo:Person",
-            "dbo:Tournament",
-            "dbo:University"
+            "dbo:Tournament"
         ]
     },
     {
@@ -18868,7 +18861,6 @@
             "dbo:Country",
             "dbo:Location",
             "dbo:Mountain",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Settlement",
             "dbo:State"
@@ -18951,7 +18943,6 @@
         "question": "What was the alma mater of the author of \"Schizophrenia is not associated with DRD4 48-base-pair-repeat length or individual alleles: results of a meta-analysis.\"",
         "category": "resource",
         "type": [
-            "dbo:Biomolecule",
             "dbo:EducationalInstitution",
             "dbo:Gene",
             "dbo:Non-ProfitOrganisation",
@@ -19118,7 +19109,6 @@
             "dbo:FictionalCharacter",
             "dbo:Film",
             "dbo:HockeyTeam",
-            "dbo:SportsTeam",
             "dbo:Work"
         ]
     },
@@ -19145,6 +19135,7 @@
         "category": "resource",
         "type": [
             "dbo:Country",
+            "dbo:Location",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -19156,6 +19147,7 @@
         "type": [
             "dbo:Location",
             "dbo:PopulatedPlace",
+            "dbo:Sport",
             "dbo:State"
         ]
     },
@@ -19172,7 +19164,6 @@
         "question": "Where did Maximilien Robespierre attend school and what was his major?",
         "category": "resource",
         "type": [
-            "dbo:City",
             "dbo:EducationalInstitution",
             "dbo:University"
         ]
@@ -19191,7 +19182,6 @@
             "dbo:Person",
             "dbo:PersonFunction",
             "dbo:Royalty",
-            "dbo:TelevisionShow",
             "dbo:Writer"
         ]
     },
@@ -19276,8 +19266,7 @@
         "category": "resource",
         "type": [
             "dbo:EducationalInstitution",
-            "dbo:Location",
-            "dbo:University"
+            "dbo:Location"
         ]
     },
     {
@@ -19288,7 +19277,6 @@
             "dbo:BodyOfWater",
             "dbo:Location",
             "dbo:NaturalPlace",
-            "dbo:Place",
             "dbo:River",
             "dbo:Stream"
         ]
@@ -19427,7 +19415,6 @@
             "dbo:Cemetery",
             "dbo:Church",
             "dbo:Location",
-            "dbo:Place",
             "dbo:ReligiousBuilding",
             "dbo:Valley"
         ]
@@ -19474,7 +19461,9 @@
         "id": "dbpedia_6739",
         "question": "Which is the occupational carcinogen for the polymer of polyvinyl chloride?",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:ChemicalSubstance"
+        ]
     },
     {
         "id": "dbpedia_16682",
@@ -19515,7 +19504,6 @@
         "category": "resource",
         "type": [
             "dbo:City",
-            "dbo:Location",
             "dbo:PopulatedPlace",
             "dbo:Settlement"
         ]
@@ -19589,11 +19577,12 @@
         "question": "Where is the Russian Empire's field army based?",
         "category": "resource",
         "type": [
-            "dbo:City",
             "dbo:Location",
             "dbo:Newspaper",
             "dbo:PeriodicalLiterature",
             "dbo:PopulatedPlace",
+            "dbo:State",
+            "dbo:Work",
             "dbo:WrittenWork"
         ]
     },
@@ -19631,6 +19620,7 @@
         "category": "resource",
         "type": [
             "dbo:Company",
+            "dbo:Organisation",
             "dbo:Person",
             "dbo:Politician",
             "dbo:RecordLabel"
@@ -19674,6 +19664,7 @@
         "category": "resource",
         "type": [
             "dbo:Company",
+            "dbo:Organisation",
             "dbo:RecordLabel"
         ]
     },
@@ -19716,6 +19707,7 @@
         "category": "resource",
         "type": [
             "dbo:City",
+            "dbo:Country",
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
@@ -19846,7 +19838,8 @@
         "question": "What was Robert Donat nominated for in Goodbye, Mr. Chips?",
         "category": "resource",
         "type": [
-            "dbo:Award"
+            "dbo:Award",
+            "dbo:BaseballTeam"
         ]
     },
     {
@@ -19891,9 +19884,7 @@
         "category": "resource",
         "type": [
             "dbo:Deity",
-            "dbo:Game",
-            "dbo:Person",
-            "dbo:Sport"
+            "dbo:Person"
         ]
     },
     {
@@ -19909,7 +19900,6 @@
         "type": [
             "dbo:AdministrativeRegion",
             "dbo:AnatomicalStructure",
-            "dbo:City",
             "dbo:Location",
             "dbo:OfficeHolder",
             "dbo:Place",
@@ -19923,7 +19913,8 @@
         "type": [
             "dbo:Location",
             "dbo:MilitaryConflict",
-            "dbo:Place"
+            "dbo:Place",
+            "dbo:PopulatedPlace"
         ]
     },
     {
@@ -20025,6 +20016,7 @@
         "category": "resource",
         "type": [
             "dbo:Airline",
+            "dbo:ArchitecturalStructure",
             "dbo:BeautyQueen",
             "dbo:Bridge",
             "dbo:Infrastructure",
@@ -20040,9 +20032,7 @@
         "id": "dbpedia_7933",
         "question": "What is the quasar with the highest redshift whose discoverer or inventor is William Herschel?",
         "category": "resource",
-        "type": [
-            "dbo:Galaxy"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_16960",
@@ -20054,11 +20044,7 @@
         "id": "dbpedia_17666",
         "question": "Tell me town whose name has the word sturovo in it.",
         "category": "resource",
-        "type": [
-            "dbo:Archipelago",
-            "dbo:CelestialBody",
-            "dbo:Constellation"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_21753",
@@ -20271,6 +20257,7 @@
             "dbo:Activity",
             "dbo:Event",
             "dbo:Location",
+            "dbo:SocietalEvent",
             "dbo:SportsEvent",
             "dbo:TimePeriod",
             "dbo:Tournament",
@@ -20331,7 +20318,9 @@
         "id": "dbpedia_4037",
         "question": "Tell me the media player with a license of proprietary license and starts with the letter w?",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:Software"
+        ]
     },
     {
         "id": "dbpedia_7412",
@@ -20356,6 +20345,7 @@
         "question": "What prize was awarded in the work of the Simpson family?",
         "category": "resource",
         "type": [
+            "dbo:Award",
             "dbo:Film",
             "dbo:Media"
         ]
@@ -20704,6 +20694,7 @@
             "dbo:Athlete",
             "dbo:City",
             "dbo:Company",
+            "dbo:Organisation",
             "dbo:PopulatedPlace",
             "dbo:Settlement",
             "dbo:SoccerPlayer"
@@ -20820,7 +20811,9 @@
         "id": "dbpedia_10775",
         "question": "What is the field of craft of Richard Ayoade?",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:Sport"
+        ]
     },
     {
         "id": "dbpedia_21242",
@@ -20889,7 +20882,6 @@
         "category": "resource",
         "type": [
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -20968,8 +20960,7 @@
         "category": "resource",
         "type": [
             "dbo:Location",
-            "dbo:Person",
-            "dbo:Place"
+            "dbo:Person"
         ]
     },
     {
@@ -20987,7 +20978,10 @@
         "type": [
             "dbo:Device",
             "dbo:EducationalInstitution",
-            "dbo:University"
+            "dbo:Language",
+            "dbo:ProgrammingLanguage",
+            "dbo:University",
+            "dbo:Weapon"
         ]
     },
     {
@@ -21085,9 +21079,7 @@
         "type": [
             "dbo:EthnicGroup",
             "dbo:Location",
-            "dbo:Media",
-            "dbo:Place",
-            "dbo:PopulatedPlace"
+            "dbo:Media"
         ]
     },
     {
@@ -21175,10 +21167,10 @@
         "category": "resource",
         "type": [
             "dbo:BodyOfWater",
+            "dbo:Deity",
             "dbo:Location",
             "dbo:NaturalPlace",
             "dbo:Place",
-            "dbo:PopulatedPlace",
             "dbo:RecordLabel",
             "dbo:River",
             "dbo:Stream"
@@ -21269,8 +21261,7 @@
         "question": "Martin Ferguson and Mike Kelly served under which aussie PM?",
         "category": "resource",
         "type": [
-            "dbo:Group",
-            "dbo:MilitaryConflict"
+            "dbo:Group"
         ]
     },
     {
@@ -21279,7 +21270,10 @@
         "category": "resource",
         "type": [
             "dbo:Airport",
-            "dbo:Island"
+            "dbo:ArchitecturalStructure",
+            "dbo:Infrastructure",
+            "dbo:Island",
+            "dbo:Location"
         ]
     },
     {
@@ -21349,7 +21343,8 @@
         "question": "What work did Patty Duke receive the Academy Award for Best Supporting Actress for?",
         "category": "resource",
         "type": [
-            "dbo:Film"
+            "dbo:Film",
+            "dbo:Work"
         ]
     },
     {
@@ -21430,10 +21425,8 @@
         "question": "Where are the headquarters of Yuriy Tselykh's team located?",
         "category": "resource",
         "type": [
-            "dbo:City",
             "dbo:Location",
-            "dbo:Place",
-            "dbo:PopulatedPlace"
+            "dbo:Place"
         ]
     },
     {
@@ -21457,8 +21450,8 @@
         "question": "Tell me ethnoreligious group whose name has the word yazidis in it.",
         "category": "resource",
         "type": [
-            "dbo:Archipelago",
-            "dbo:EthnicGroup"
+            "dbo:EthnicGroup",
+            "dbo:Food"
         ]
     },
     {
@@ -21585,7 +21578,6 @@
         "type": [
             "dbo:EthnicGroup",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -21595,7 +21587,6 @@
         "question": "Where does Thomas Jefferson's special people stay?",
         "category": "resource",
         "type": [
-            "dbo:City",
             "dbo:Location"
         ]
     },
@@ -21621,6 +21612,7 @@
         "category": "resource",
         "type": [
             "dbo:Company",
+            "dbo:Organisation",
             "dbo:Person"
         ]
     },
@@ -21747,8 +21739,6 @@
             "dbo:EducationalInstitution",
             "dbo:Library",
             "dbo:Location",
-            "dbo:Place",
-            "dbo:PopulatedPlace",
             "dbo:Race"
         ]
     },
@@ -21762,6 +21752,7 @@
             "dbo:BaseballTeam",
             "dbo:CollegeCoach",
             "dbo:GridironFootballPlayer",
+            "dbo:Organisation",
             "dbo:Person",
             "dbo:SportsTeam"
         ]
@@ -21771,6 +21762,7 @@
         "question": "Whose work is in the Musee d'orsay?",
         "category": "resource",
         "type": [
+            "dbo:Brain",
             "dbo:Writer"
         ]
     },
@@ -21779,8 +21771,10 @@
         "question": "What are the lunisolar calendar which start with the letter c",
         "category": "resource",
         "type": [
+            "dbo:EducationalInstitution",
             "dbo:GeologicalPeriod",
-            "dbo:TimePeriod"
+            "dbo:TimePeriod",
+            "dbo:University"
         ]
     },
     {
@@ -21795,9 +21789,7 @@
         "id": "dbpedia_5226",
         "question": "Which are the symphtoms of Alfred Deakin?",
         "category": "resource",
-        "type": [
-            "dbo:Election"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_890",
@@ -21866,7 +21858,6 @@
             "dbo:CelestialBody",
             "dbo:Galaxy",
             "dbo:Location",
-            "dbo:Place",
             "dbo:Planet"
         ]
     },
@@ -21937,7 +21928,6 @@
             "dbo:Location",
             "dbo:NaturalRegion",
             "dbo:Place",
-            "dbo:PopulatedPlace",
             "dbo:Region",
             "dbo:TelevisionStation"
         ]
@@ -22166,7 +22156,8 @@
         "category": "resource",
         "type": [
             "dbo:Film",
-            "dbo:Person"
+            "dbo:Person",
+            "dbo:Work"
         ]
     },
     {
@@ -22294,6 +22285,7 @@
         "category": "resource",
         "type": [
             "dbo:EducationalInstitution",
+            "dbo:Organisation",
             "dbo:University"
         ]
     },
@@ -22314,7 +22306,8 @@
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
-            "dbo:Settlement"
+            "dbo:Settlement",
+            "dbo:State"
         ]
     },
     {
@@ -22420,6 +22413,7 @@
         "question": "Where does the Kentucky cycle take place?",
         "category": "resource",
         "type": [
+            "dbo:ArchitecturalStructure",
             "dbo:BodyOfWater",
             "dbo:City",
             "dbo:Location",
@@ -22478,6 +22472,7 @@
         "category": "resource",
         "type": [
             "dbo:Country",
+            "dbo:Location",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -22486,10 +22481,7 @@
         "id": "dbpedia_4241",
         "question": "Which chef-lieu was the hometown of George Orwell?",
         "category": "resource",
-        "type": [
-            "dbo:City",
-            "dbo:PopulatedPlace"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_8124",
@@ -22527,7 +22519,6 @@
         "question": "Tell me a treatment used for the medical condition of lidocaine?",
         "category": "resource",
         "type": [
-            "dbo:ChemicalCompound",
             "dbo:ChemicalSubstance",
             "dbo:Disease"
         ]
@@ -22540,6 +22531,7 @@
             "dbo:Cave",
             "dbo:Device",
             "dbo:Location",
+            "dbo:Place",
             "dbo:Weapon"
         ]
     },
@@ -22549,7 +22541,6 @@
         "category": "resource",
         "type": [
             "dbo:CelestialBody",
-            "dbo:Location",
             "dbo:Planet"
         ]
     },
@@ -22638,7 +22629,8 @@
         "question": "What is the actress, that has received the Bodil Award for Best Actress in a Leading Role?",
         "category": "resource",
         "type": [
-            "dbo:Film"
+            "dbo:Film",
+            "dbo:Work"
         ]
     },
     {
@@ -22657,9 +22649,7 @@
         "category": "resource",
         "type": [
             "dbo:City",
-            "dbo:Location",
-            "dbo:Place",
-            "dbo:PopulatedPlace"
+            "dbo:Location"
         ]
     },
     {
@@ -22709,7 +22699,6 @@
         "type": [
             "dbo:Biomolecule",
             "dbo:Gene",
-            "dbo:Media",
             "dbo:Protein"
         ]
     },
@@ -22790,10 +22779,7 @@
         "question": "Where is the headquarters of UNESCO?",
         "category": "resource",
         "type": [
-            "dbo:City",
-            "dbo:Location",
-            "dbo:Place",
-            "dbo:PopulatedPlace"
+            "dbo:Location"
         ]
     },
     {
@@ -22817,7 +22803,6 @@
         "type": [
             "dbo:EthnicGroup",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -22837,7 +22822,6 @@
         "type": [
             "dbo:City",
             "dbo:Country",
-            "dbo:GovernmentAgency",
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
@@ -22998,7 +22982,9 @@
         "id": "dbpedia_13404",
         "question": "which replaces for thomas sankara has position held as prime minister of burkina faso?",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:OfficeHolder"
+        ]
     },
     {
         "id": "dbpedia_7893",
@@ -23116,9 +23102,7 @@
             "dbo:CelestialBody",
             "dbo:Constellation",
             "dbo:Galaxy",
-            "dbo:Location",
             "dbo:MeanOfTransportation",
-            "dbo:PopulatedPlace",
             "dbo:SpaceStation"
         ]
     },
@@ -23151,9 +23135,7 @@
         "id": "dbpedia_4436",
         "question": "Where did Rajinikanth and spouse Latha Rajinikanth get married and at which time?",
         "category": "resource",
-        "type": [
-            "dbo:City"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_21708",
@@ -23172,9 +23154,11 @@
         "question": "Which is the dog that is in exhibition history of Anchorage Museum and starts with the letter b?",
         "category": "resource",
         "type": [
+            "dbo:Animal",
             "dbo:ArchitecturalStructure",
             "dbo:Building",
             "dbo:Castle",
+            "dbo:Eukaryote",
             "dbo:Location",
             "dbo:Museum",
             "dbo:Place"
@@ -23405,6 +23389,7 @@
         "category": "resource",
         "type": [
             "dbo:Artist",
+            "dbo:Book",
             "dbo:Musical",
             "dbo:MusicalArtist",
             "dbo:TelevisionShow"
@@ -23423,8 +23408,8 @@
         "question": "Name the sports played by PATTS College of Aeronautics?",
         "category": "resource",
         "type": [
-            "dbo:Activity",
             "dbo:EducationalInstitution",
+            "dbo:Organisation",
             "dbo:Sport",
             "dbo:University"
         ]
@@ -23479,7 +23464,9 @@
         "type": [
             "dbo:Country",
             "dbo:Island",
+            "dbo:Location",
             "dbo:MeanOfTransportation",
+            "dbo:Mountain",
             "dbo:PopulatedPlace",
             "dbo:Ship",
             "dbo:State"
@@ -23600,11 +23587,9 @@
         "question": "What is the main electricity voltage of the Bibliotheque nationale de france?",
         "category": "resource",
         "type": [
-            "dbo:City",
             "dbo:CyclingRace",
             "dbo:Location",
             "dbo:Place",
-            "dbo:PopulatedPlace",
             "dbo:Race"
         ]
     },
@@ -23614,6 +23599,7 @@
         "category": "resource",
         "type": [
             "dbo:Case",
+            "dbo:Castle",
             "dbo:LegalCase",
             "dbo:Museum",
             "dbo:UnitOfWork"
@@ -23752,9 +23738,7 @@
         "id": "dbpedia_21672",
         "question": "Where is the tombstone of Johannes Gerhardus Strijdom?",
         "category": "resource",
-        "type": [
-            "dbo:City"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_8682",
@@ -23806,8 +23790,7 @@
             "dbo:AmericanFootballTeam",
             "dbo:EducationalInstitution",
             "dbo:SoccerClub",
-            "dbo:SportsTeam",
-            "dbo:University"
+            "dbo:SportsTeam"
         ]
     },
     {
@@ -23849,8 +23832,7 @@
         "question": "Carriage source of power is what?",
         "category": "resource",
         "type": [
-            "dbo:Location",
-            "dbo:Place"
+            "dbo:Location"
         ]
     },
     {
@@ -23922,11 +23904,11 @@
         "question": "Which religion affiliation was established by Mahendra S\u016bri?",
         "category": "resource",
         "type": [
+            "dbo:Building",
             "dbo:EducationalInstitution",
             "dbo:EthnicGroup",
             "dbo:Location",
             "dbo:Museum",
-            "dbo:Place",
             "dbo:School"
         ]
     },
@@ -23945,6 +23927,7 @@
         "question": "What are the brain region that starts with the letter t",
         "category": "resource",
         "type": [
+            "dbo:Activity",
             "dbo:AnatomicalStructure",
             "dbo:HistoricalRegion",
             "dbo:Location",
@@ -24007,9 +23990,7 @@
         "category": "resource",
         "type": [
             "dbo:City",
-            "dbo:Location",
             "dbo:PopulatedPlace",
-            "dbo:Settlement",
             "dbo:Town"
         ]
     },
@@ -24094,13 +24075,10 @@
         "question": "Tell me district of Austria whose name has the word wels in it.",
         "category": "resource",
         "type": [
-            "dbo:Archipelago",
-            "dbo:CelestialBody",
             "dbo:City",
-            "dbo:Constellation",
+            "dbo:EthnicGroup",
+            "dbo:Food",
             "dbo:Location",
-            "dbo:Mountain",
-            "dbo:NaturalPlace",
             "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Settlement"
@@ -24205,12 +24183,10 @@
         "category": "resource",
         "type": [
             "dbo:BodyOfWater",
-            "dbo:City",
             "dbo:Location",
             "dbo:Mountain",
             "dbo:NaturalPlace",
             "dbo:Place",
-            "dbo:PopulatedPlace",
             "dbo:River",
             "dbo:Stream"
         ]
@@ -24264,7 +24240,8 @@
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
-            "dbo:Settlement"
+            "dbo:Settlement",
+            "dbo:State"
         ]
     },
     {
@@ -24333,6 +24310,7 @@
         "question": "What is the longest river?",
         "category": "resource",
         "type": [
+            "dbo:ArchitecturalStructure",
             "dbo:BodyOfWater",
             "dbo:Bridge",
             "dbo:Infrastructure",
@@ -24347,7 +24325,9 @@
         "id": "dbpedia_18761",
         "question": "Name a colonel whose resting place is Montpelier ?",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:OfficeHolder"
+        ]
     },
     {
         "id": "dbpedia_11826",
@@ -24381,7 +24361,6 @@
         "question": "Mention the Australian Football League's football club",
         "category": "resource",
         "type": [
-            "dbo:Activity",
             "dbo:Newspaper",
             "dbo:SoccerManager",
             "dbo:SoccerPlayer",
@@ -24403,7 +24382,6 @@
         "category": "resource",
         "type": [
             "dbo:Astronaut",
-            "dbo:Holiday",
             "dbo:PoliticalParty"
         ]
     },
@@ -24420,7 +24398,9 @@
         "id": "dbpedia_7390",
         "question": "tell  me open content founded by Larry Sanger  starts with w",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:Software"
+        ]
     },
     {
         "id": "dbpedia_14171",
@@ -24449,7 +24429,8 @@
         "question": "For which production was Philippe Noiret the Cesar Award Best Actor nominee?",
         "category": "resource",
         "type": [
-            "dbo:Film"
+            "dbo:Film",
+            "dbo:Work"
         ]
     },
     {
@@ -24555,13 +24536,11 @@
         "category": "resource",
         "type": [
             "dbo:Activity",
-            "dbo:City",
             "dbo:Continent",
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
-            "dbo:Road",
-            "dbo:RouteOfTransportation"
+            "dbo:Road"
         ]
     },
     {
@@ -24618,7 +24597,6 @@
             "dbo:Asteroid",
             "dbo:Building",
             "dbo:CelestialBody",
-            "dbo:Location",
             "dbo:Planet",
             "dbo:Skyscraper"
         ]
@@ -24650,7 +24628,6 @@
             "dbo:City",
             "dbo:Country",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -24660,7 +24637,7 @@
         "question": "With whom were the engagements of Alpine Brigade Taurinense?",
         "category": "resource",
         "type": [
-            "dbo:Legislature"
+            "dbo:AmericanFootballTeam"
         ]
     },
     {
@@ -24668,7 +24645,8 @@
         "question": "Which producer of Purvis Eureka engine is also the owner of Ford Theatre ?",
         "category": "resource",
         "type": [
-            "dbo:Company"
+            "dbo:Company",
+            "dbo:Organisation"
         ]
     },
     {
@@ -24676,7 +24654,6 @@
         "question": "Name the sports played by Fr. Agnel Multipurpose School and Junior College?",
         "category": "resource",
         "type": [
-            "dbo:Activity",
             "dbo:Game",
             "dbo:Sport"
         ]
@@ -24777,7 +24754,9 @@
         "id": "dbpedia_12129",
         "question": "What is the state of belligerents of Muslim conquest of the Maghreb?",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:Sport"
+        ]
     },
     {
         "id": "dbpedia_5768",
@@ -24792,7 +24771,6 @@
         "question": "Who is the member of deathplace of Surena?",
         "category": "resource",
         "type": [
-            "dbo:City",
             "dbo:Person",
             "dbo:PoliticalParty"
         ]
@@ -24872,7 +24850,8 @@
         "category": "resource",
         "type": [
             "dbo:FictionalCharacter",
-            "dbo:Person"
+            "dbo:Person",
+            "dbo:Work"
         ]
     },
     {
@@ -24912,8 +24891,7 @@
         "question": "After the death of which political figure, did the Coalition Provisional Authority came into power?",
         "category": "resource",
         "type": [
-            "dbo:Location",
-            "dbo:Place"
+            "dbo:Location"
         ]
     },
     {
@@ -24957,8 +24935,7 @@
         "question": "What is the nationality of someone who is born in Valencia",
         "category": "resource",
         "type": [
-            "dbo:PersonFunction",
-            "dbo:Software"
+            "dbo:PersonFunction"
         ]
     },
     {
@@ -24989,18 +24966,13 @@
         "id": "dbpedia_5141",
         "question": "Which is the incarnation of Shiva?",
         "category": "resource",
-        "type": [
-            "dbo:Deity",
-            "dbo:FictionalCharacter",
-            "dbo:Mineral"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_8976",
         "question": "Which music is studied by Kvinnan Bakom Allt?",
         "category": "resource",
         "type": [
-            "dbo:Media",
             "dbo:PersonFunction",
             "dbo:Profession",
             "dbo:Writer"
@@ -25041,6 +25013,7 @@
         "type": [
             "dbo:Artist",
             "dbo:MusicalArtist",
+            "dbo:MusicalWork",
             "dbo:TelevisionShow",
             "dbo:Writer"
         ]
@@ -25090,7 +25063,6 @@
         "type": [
             "dbo:City",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace"
         ]
     },
@@ -25302,7 +25274,11 @@
         "category": "resource",
         "type": [
             "dbo:BodyOfWater",
-            "dbo:NaturalPlace"
+            "dbo:Book",
+            "dbo:Location",
+            "dbo:NaturalPlace",
+            "dbo:River",
+            "dbo:Stream"
         ]
     },
     {
@@ -25319,7 +25295,6 @@
         "category": "resource",
         "type": [
             "dbo:Asteroid",
-            "dbo:CelestialBody",
             "dbo:FictionalCharacter",
             "dbo:Location"
         ]
@@ -25346,6 +25321,7 @@
         "category": "resource",
         "type": [
             "dbo:BodyOfWater",
+            "dbo:Country",
             "dbo:Lake",
             "dbo:Location",
             "dbo:NaturalPlace",
@@ -25410,6 +25386,7 @@
         "category": "resource",
         "type": [
             "dbo:Country",
+            "dbo:Location",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -25446,6 +25423,7 @@
         "question": "What is the ortholog of AVP?",
         "category": "resource",
         "type": [
+            "dbo:Biomolecule",
             "dbo:Gene",
             "dbo:Protein"
         ]
@@ -25477,8 +25455,7 @@
             "dbo:BasketballLeague",
             "dbo:MeanOfTransportation",
             "dbo:SoccerLeague",
-            "dbo:SportsLeague",
-            "dbo:SportsTeam"
+            "dbo:SportsLeague"
         ]
     },
     {
@@ -25568,9 +25545,7 @@
         "type": [
             "dbo:City",
             "dbo:Location",
-            "dbo:Place",
-            "dbo:PopulatedPlace",
-            "dbo:Settlement"
+            "dbo:PopulatedPlace"
         ]
     },
     {
@@ -25613,7 +25588,6 @@
         "category": "resource",
         "type": [
             "dbo:CelestialBody",
-            "dbo:Constellation",
             "dbo:Galaxy",
             "dbo:Island",
             "dbo:Location",
@@ -25642,7 +25616,6 @@
             "dbo:Governor",
             "dbo:Location",
             "dbo:Person",
-            "dbo:Place",
             "dbo:Politician",
             "dbo:PopulatedPlace",
             "dbo:State"
@@ -25655,6 +25628,8 @@
         "type": [
             "dbo:Activity",
             "dbo:HockeyTeam",
+            "dbo:IceHockeyLeague",
+            "dbo:Organisation",
             "dbo:SoccerLeague",
             "dbo:SportsLeague",
             "dbo:SportsTeam"
@@ -25709,8 +25684,7 @@
         "type": [
             "dbo:Asteroid",
             "dbo:CelestialBody",
-            "dbo:Location",
-            "dbo:Place"
+            "dbo:Location"
         ]
     },
     {
@@ -25780,7 +25754,6 @@
         "question": "Who is the common parent of Gettv and hypnotize mind ?",
         "category": "resource",
         "type": [
-            "dbo:Company",
             "dbo:Person",
             "dbo:RecordLabel"
         ]
@@ -25913,7 +25886,6 @@
         "question": "What is another treatment of hypertension other than hypersalivation?",
         "category": "resource",
         "type": [
-            "dbo:ChemicalCompound",
             "dbo:ChemicalSubstance",
             "dbo:Disease"
         ]
@@ -26111,7 +26083,6 @@
             "dbo:Cave",
             "dbo:Country",
             "dbo:Location",
-            "dbo:NaturalPlace",
             "dbo:Place",
             "dbo:PopulatedPlace"
         ]
@@ -26146,8 +26117,7 @@
         "category": "resource",
         "type": [
             "dbo:Location",
-            "dbo:Mountain",
-            "dbo:Place"
+            "dbo:Mountain"
         ]
     },
     {
@@ -26184,7 +26154,6 @@
             "dbo:PersonFunction",
             "dbo:Place",
             "dbo:Profession",
-            "dbo:River",
             "dbo:RouteOfTransportation",
             "dbo:Stream"
         ]
@@ -26206,7 +26175,6 @@
             "dbo:City",
             "dbo:Family",
             "dbo:Language",
-            "dbo:Mammal",
             "dbo:NobleFamily",
             "dbo:PopulatedPlace",
             "dbo:Settlement"
@@ -26251,7 +26219,8 @@
         "type": [
             "dbo:Book",
             "dbo:TelevisionShow",
-            "dbo:Writer"
+            "dbo:Writer",
+            "dbo:WrittenWork"
         ]
     },
     {
@@ -26339,7 +26308,6 @@
         "category": "resource",
         "type": [
             "dbo:AnatomicalStructure",
-            "dbo:City",
             "dbo:HistoricalRegion",
             "dbo:Location",
             "dbo:Place",
@@ -26537,8 +26505,7 @@
         "category": "resource",
         "type": [
             "dbo:Location",
-            "dbo:Place",
-            "dbo:PopulatedPlace"
+            "dbo:Place"
         ]
     },
     {
@@ -26592,7 +26559,6 @@
         "question": "Where did the genres originate which can found in The Mudbloods?",
         "category": "resource",
         "type": [
-            "dbo:City",
             "dbo:Genre",
             "dbo:Location",
             "dbo:MusicGenre",
@@ -26625,6 +26591,7 @@
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
+            "dbo:State",
             "dbo:Weapon"
         ]
     },
@@ -26694,7 +26661,6 @@
         "question": "Where did Ken Burns study design?",
         "category": "resource",
         "type": [
-            "dbo:City",
             "dbo:EducationalInstitution",
             "dbo:Location",
             "dbo:Organisation",
@@ -26819,7 +26785,8 @@
         "type": [
             "dbo:Biomolecule",
             "dbo:Disease",
-            "dbo:Gene"
+            "dbo:Gene",
+            "dbo:MedicalSpecialty"
         ]
     },
     {
@@ -26847,7 +26814,8 @@
         "question": "What is the resting place of Hayreddin Barbarossa, that has a sister in Lagos?",
         "category": "resource",
         "type": [
-            "dbo:City"
+            "dbo:City",
+            "dbo:OfficeHolder"
         ]
     },
     {
@@ -26879,7 +26847,9 @@
         "id": "dbpedia_5497",
         "question": "Which one is of the pasteurization?",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:School"
+        ]
     },
     {
         "id": "dbpedia_14156",
@@ -26911,6 +26881,7 @@
             "dbo:Event",
             "dbo:Musical",
             "dbo:MusicalWork",
+            "dbo:SocietalEvent",
             "dbo:SportsEvent",
             "dbo:Tournament",
             "dbo:Work"
@@ -26922,8 +26893,7 @@
         "category": "resource",
         "type": [
             "dbo:PersonFunction",
-            "dbo:Profession",
-            "dbo:Software"
+            "dbo:Profession"
         ]
     },
     {
@@ -27052,8 +27022,7 @@
         "type": [
             "dbo:City",
             "dbo:Legislature",
-            "dbo:Location",
-            "dbo:Place"
+            "dbo:Location"
         ]
     },
     {
@@ -27087,7 +27056,8 @@
         "category": "resource",
         "type": [
             "dbo:Film",
-            "dbo:MusicalWork"
+            "dbo:MusicalWork",
+            "dbo:Work"
         ]
     },
     {
@@ -27230,7 +27200,11 @@
         "id": "dbpedia_9924",
         "question": "who art collection of portrayed by  thorvaldsen Museum ?",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:Location",
+            "dbo:Place",
+            "dbo:PopulatedPlace"
+        ]
     },
     {
         "id": "dbpedia_3090",
@@ -27240,8 +27214,7 @@
             "dbo:Asteroid",
             "dbo:CelestialBody",
             "dbo:Constellation",
-            "dbo:Galaxy",
-            "dbo:Location"
+            "dbo:Galaxy"
         ]
     },
     {
@@ -27337,10 +27310,12 @@
         "question": "What is the location of the pope whose major shrine is St. Peter's Basilica ?",
         "category": "resource",
         "type": [
+            "dbo:ArchitecturalStructure",
             "dbo:Building",
             "dbo:Church",
             "dbo:City",
             "dbo:Cleric",
+            "dbo:Location",
             "dbo:ReligiousBuilding",
             "dbo:Saint"
         ]
@@ -27447,7 +27422,6 @@
         "question": "Who is the mentor of Hans - Hermann Hoppe's doctorate supervisor?",
         "category": "resource",
         "type": [
-            "dbo:AcademicSubject",
             "dbo:Person",
             "dbo:Scientist"
         ]
@@ -27603,7 +27577,6 @@
         "question": "Who is the brother of the screenwriter of The King - Jari Litmanen?",
         "category": "resource",
         "type": [
-            "dbo:Film",
             "dbo:Person"
         ]
     },
@@ -27693,7 +27666,6 @@
         "category": "resource",
         "type": [
             "dbo:Location",
-            "dbo:Place",
             "dbo:WineRegion"
         ]
     },
@@ -27785,9 +27757,7 @@
         "id": "dbpedia_4337",
         "question": "Which was the cost of Titanic?",
         "category": "resource",
-        "type": [
-            "dbo:Mineral"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_13741",
@@ -27842,7 +27812,6 @@
         "type": [
             "dbo:City",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Settlement"
         ]
@@ -27888,7 +27857,10 @@
         "question": "Tell me newspaper whose name has the word \u015falom in it.",
         "category": "resource",
         "type": [
-            "dbo:Event"
+            "dbo:Device",
+            "dbo:EthnicGroup",
+            "dbo:Food",
+            "dbo:Weapon"
         ]
     },
     {
@@ -27897,6 +27869,7 @@
         "category": "resource",
         "type": [
             "dbo:Country",
+            "dbo:Location",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -27908,7 +27881,6 @@
         "type": [
             "dbo:Activity",
             "dbo:Book",
-            "dbo:Mountain",
             "dbo:MusicalWork",
             "dbo:Single",
             "dbo:Work",
@@ -28034,7 +28006,6 @@
             "dbo:Airline",
             "dbo:Airport",
             "dbo:ArchitecturalStructure",
-            "dbo:City",
             "dbo:Company",
             "dbo:Continent",
             "dbo:Infrastructure",
@@ -28216,8 +28187,8 @@
         "category": "resource",
         "type": [
             "dbo:Book",
+            "dbo:Country",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Work",
             "dbo:WrittenWork"
@@ -28284,7 +28255,6 @@
         "question": "What is the Home Stadium of the Kenya national under-20 football team where Matin Suji was also born ?",
         "category": "resource",
         "type": [
-            "dbo:Location",
             "dbo:PopulatedPlace",
             "dbo:SoccerManager",
             "dbo:SoccerPlayer",
@@ -28298,7 +28268,8 @@
         "category": "resource",
         "type": [
             "dbo:Genre",
-            "dbo:MusicGenre"
+            "dbo:MusicGenre",
+            "dbo:Profession"
         ]
     },
     {
@@ -28362,8 +28333,8 @@
             "dbo:City",
             "dbo:Language",
             "dbo:Location",
-            "dbo:Place",
-            "dbo:PopulatedPlace"
+            "dbo:PopulatedPlace",
+            "dbo:State"
         ]
     },
     {
@@ -28440,6 +28411,7 @@
         "category": "resource",
         "type": [
             "dbo:City",
+            "dbo:Country",
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
@@ -28763,7 +28735,8 @@
         "category": "resource",
         "type": [
             "dbo:PersonFunction",
-            "dbo:Profession"
+            "dbo:Profession",
+            "dbo:Sport"
         ]
     },
     {
@@ -28795,7 +28768,8 @@
             "dbo:MilitaryConflict",
             "dbo:MilitaryPerson",
             "dbo:OfficeHolder",
-            "dbo:Person"
+            "dbo:Person",
+            "dbo:Place"
         ]
     },
     {
@@ -28879,7 +28853,8 @@
         "question": "Who is the owner of Ford Motor Credit comapny which is also the builder of FORD SHO V8 engine ?",
         "category": "resource",
         "type": [
-            "dbo:Company"
+            "dbo:Company",
+            "dbo:Organisation"
         ]
     },
     {
@@ -29002,6 +28977,7 @@
             "dbo:City",
             "dbo:PopulatedPlace",
             "dbo:Road",
+            "dbo:RouteOfTransportation",
             "dbo:Settlement"
         ]
     },
@@ -29039,7 +29015,8 @@
         "category": "resource",
         "type": [
             "dbo:Company",
-            "dbo:Non-ProfitOrganisation"
+            "dbo:Non-ProfitOrganisation",
+            "dbo:Organisation"
         ]
     },
     {
@@ -29055,7 +29032,9 @@
         "question": "What is the regional government of Tasmania",
         "category": "resource",
         "type": [
-            "dbo:Governor"
+            "dbo:Governor",
+            "dbo:Mountain",
+            "dbo:Politician"
         ]
     },
     {
@@ -29170,9 +29149,7 @@
         "id": "dbpedia_9927",
         "question": "which encodes for rho?",
         "category": "resource",
-        "type": [
-            "dbo:Protein"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_13133",
@@ -29186,6 +29163,7 @@
         "category": "resource",
         "type": [
             "dbo:City",
+            "dbo:Country",
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
@@ -29208,8 +29186,7 @@
             "dbo:City",
             "dbo:Country",
             "dbo:Location",
-            "dbo:PopulatedPlace",
-            "dbo:Settlement"
+            "dbo:PopulatedPlace"
         ]
     },
     {
@@ -29283,7 +29260,8 @@
         "question": "For what work, Geena Davis was awarded Academy Award for Best Supporting Actress?",
         "category": "resource",
         "type": [
-            "dbo:Film"
+            "dbo:Film",
+            "dbo:Work"
         ]
     },
     {
@@ -29297,6 +29275,7 @@
         "question": "Vladimir Lenin was the leader of which country?",
         "category": "resource",
         "type": [
+            "dbo:Location",
             "dbo:PoliticalParty",
             "dbo:PopulatedPlace",
             "dbo:State"
@@ -29430,6 +29409,7 @@
             "dbo:Activity",
             "dbo:Event",
             "dbo:Musical",
+            "dbo:SocietalEvent",
             "dbo:SportsEvent",
             "dbo:Tournament"
         ]
@@ -29484,6 +29464,7 @@
         "question": "Was Paracetamol medical condition treated pain and Amanita phalloides?",
         "category": "resource",
         "type": [
+            "dbo:ChemicalSubstance",
             "dbo:Disease"
         ]
     },
@@ -29531,9 +29512,9 @@
         "category": "resource",
         "type": [
             "dbo:City",
-            "dbo:Location",
             "dbo:PopulatedPlace",
-            "dbo:Settlement"
+            "dbo:Settlement",
+            "dbo:State"
         ]
     },
     {
@@ -29542,8 +29523,7 @@
         "category": "resource",
         "type": [
             "dbo:Asteroid",
-            "dbo:CelestialBody",
-            "dbo:Location"
+            "dbo:CelestialBody"
         ]
     },
     {
@@ -29691,9 +29671,7 @@
         "category": "resource",
         "type": [
             "dbo:City",
-            "dbo:Location",
             "dbo:PopulatedPlace",
-            "dbo:Settlement",
             "dbo:Town"
         ]
     },
@@ -29822,7 +29800,9 @@
         "id": "dbpedia_401",
         "question": "In what field of work does Jos\u00e9 Luis Rodr\u00edguez Zapatero work in?",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:Country"
+        ]
     },
     {
         "id": "dbpedia_20288",
@@ -29851,7 +29831,8 @@
         "category": "resource",
         "type": [
             "dbo:Film",
-            "dbo:Person"
+            "dbo:Person",
+            "dbo:Work"
         ]
     },
     {
@@ -29948,6 +29929,7 @@
         "question": "When did member of sports team of Christine Sinclair and number of matches played?",
         "category": "resource",
         "type": [
+            "dbo:Organisation",
             "dbo:SoccerClub",
             "dbo:SportsClub",
             "dbo:SportsTeam"
@@ -30084,9 +30066,7 @@
         "id": "dbpedia_16367",
         "question": "What Amphibian classification is the Goliath frog?",
         "category": "resource",
-        "type": [
-            "dbo:Media"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_20127",
@@ -30095,6 +30075,7 @@
         "type": [
             "dbo:Country",
             "dbo:EthnicGroup",
+            "dbo:Location",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -30104,7 +30085,6 @@
         "question": "Did Johann Gottfried Galle invent Neptune?",
         "category": "resource",
         "type": [
-            "dbo:CelestialBody",
             "dbo:Media",
             "dbo:Planet"
         ]
@@ -30122,9 +30102,7 @@
         "id": "dbpedia_15325",
         "question": "What is the place of death of Boris Pasternak in the Soviet Union?",
         "category": "resource",
-        "type": [
-            "dbo:Media"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_10412",
@@ -30284,8 +30262,11 @@
         "question": "Tell me chemical substance whose name has the word zeolite in it.",
         "category": "resource",
         "type": [
+            "dbo:ChemicalCompound",
             "dbo:ChemicalSubstance",
-            "dbo:Mineral"
+            "dbo:Food",
+            "dbo:Mineral",
+            "dbo:Weapon"
         ]
     },
     {
@@ -30311,6 +30292,7 @@
         "type": [
             "dbo:Artist",
             "dbo:HockeyTeam",
+            "dbo:Organisation",
             "dbo:SoccerClub",
             "dbo:SportsClub",
             "dbo:SportsTeam"
@@ -30341,6 +30323,7 @@
         "question": "List some teammates of Ndonga Mianga?",
         "category": "resource",
         "type": [
+            "dbo:Athlete",
             "dbo:Writer"
         ]
     },
@@ -30416,6 +30399,7 @@
         "question": "What about Dan Brown is studied at the Phillips Exeter Acacemy?",
         "category": "resource",
         "type": [
+            "dbo:EducationalInstitution",
             "dbo:School"
         ]
     },
@@ -30467,7 +30451,9 @@
         "category": "resource",
         "type": [
             "dbo:Activity",
+            "dbo:ArchitecturalStructure",
             "dbo:Bridge",
+            "dbo:Event",
             "dbo:Infrastructure",
             "dbo:Island",
             "dbo:RouteOfTransportation"
@@ -30553,7 +30539,12 @@
         "id": "dbpedia_16578",
         "question": "Tell me championship whose name has the word ligue  in it.",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:Device",
+            "dbo:EthnicGroup",
+            "dbo:Food",
+            "dbo:Weapon"
+        ]
     },
     {
         "id": "dbpedia_22296",
@@ -30589,7 +30580,8 @@
         "question": "What work was Norma Shearer nominated for the Academy Award for Best Actress?",
         "category": "resource",
         "type": [
-            "dbo:Film"
+            "dbo:Film",
+            "dbo:Work"
         ]
     },
     {
@@ -30606,7 +30598,6 @@
             "dbo:BodyOfWater",
             "dbo:Location",
             "dbo:NaturalPlace",
-            "dbo:Place",
             "dbo:River",
             "dbo:Stream"
         ]
@@ -30673,7 +30664,6 @@
         "question": "Which ships were called after Benjamin Franklin?",
         "category": "resource",
         "type": [
-            "dbo:Media",
             "dbo:Scientist"
         ]
     },
@@ -30726,7 +30716,6 @@
             "dbo:ChemicalCompound",
             "dbo:ChemicalSubstance",
             "dbo:Comic",
-            "dbo:Infrastructure",
             "dbo:Manga",
             "dbo:PowerStation"
         ]
@@ -30740,6 +30729,7 @@
             "dbo:Athlete",
             "dbo:Country",
             "dbo:GridironFootballPlayer",
+            "dbo:Location",
             "dbo:PoliticalParty",
             "dbo:PopulatedPlace",
             "dbo:State"
@@ -30932,9 +30922,9 @@
         "question": "What is Jim lovells crew member?",
         "category": "resource",
         "type": [
-            "dbo:MeanOfTransportation",
             "dbo:PersonFunction",
-            "dbo:Profession"
+            "dbo:Profession",
+            "dbo:Ship"
         ]
     },
     {
@@ -30984,7 +30974,6 @@
         "type": [
             "dbo:City",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Settlement"
         ]
@@ -31090,6 +31079,7 @@
         "category": "resource",
         "type": [
             "dbo:Book",
+            "dbo:MusicalArtist",
             "dbo:MusicalWork",
             "dbo:Opera",
             "dbo:Work",
@@ -31125,7 +31115,6 @@
         "question": "Where Clement I dired at Bosporan Kingdom?",
         "category": "resource",
         "type": [
-            "dbo:City",
             "dbo:Continent",
             "dbo:Island",
             "dbo:Location",
@@ -31139,12 +31128,11 @@
         "question": "What disciplines study Hebrew?",
         "category": "resource",
         "type": [
+            "dbo:AcademicSubject",
             "dbo:Activity",
-            "dbo:Book",
             "dbo:Game",
             "dbo:Software",
-            "dbo:Sport",
-            "dbo:WrittenWork"
+            "dbo:Sport"
         ]
     },
     {
@@ -31221,6 +31209,7 @@
         "category": "resource",
         "type": [
             "dbo:Company",
+            "dbo:Organisation",
             "dbo:RecordLabel"
         ]
     },
@@ -31258,9 +31247,7 @@
         "id": "dbpedia_13828",
         "question": "Where is the head office of the discoverer of cavity magnetron?",
         "category": "resource",
-        "type": [
-            "dbo:City"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_3248",
@@ -31270,7 +31257,6 @@
             "dbo:BodyOfWater",
             "dbo:Location",
             "dbo:NaturalPlace",
-            "dbo:Place",
             "dbo:River",
             "dbo:Stream"
         ]
@@ -31311,10 +31297,10 @@
             "dbo:Award",
             "dbo:Country",
             "dbo:Film",
+            "dbo:Location",
             "dbo:PopulatedPlace",
             "dbo:State",
-            "dbo:TennisTournament",
-            "dbo:Tournament"
+            "dbo:TennisTournament"
         ]
     },
     {
@@ -31554,11 +31540,9 @@
         "category": "resource",
         "type": [
             "dbo:Band",
-            "dbo:City",
             "dbo:EducationalInstitution",
             "dbo:Organisation",
             "dbo:PersonFunction",
-            "dbo:Profession",
             "dbo:School",
             "dbo:University"
         ]
@@ -31647,7 +31631,12 @@
         "id": "dbpedia_16648",
         "question": "TELL ME MEDIA FRANCHISE WHOSE NAME HAS THE WORD ZOIDS IN IT.",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:Device",
+            "dbo:EthnicGroup",
+            "dbo:Food",
+            "dbo:Weapon"
+        ]
     },
     {
         "id": "dbpedia_686",
@@ -31711,7 +31700,6 @@
             "dbo:HistoricalPeriod",
             "dbo:HockeyTeam",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Settlement",
             "dbo:SoccerClub",
@@ -31741,6 +31729,7 @@
         "type": [
             "dbo:EducationalInstitution",
             "dbo:FictionalCharacter",
+            "dbo:Organisation",
             "dbo:Play",
             "dbo:University"
         ]
@@ -31808,7 +31797,6 @@
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
-            "dbo:Settlement",
             "dbo:State"
         ]
     },
@@ -31834,9 +31822,7 @@
         "id": "dbpedia_6006",
         "question": "Tell me revolution which contains the word o revolution in their own name",
         "category": "resource",
-        "type": [
-            "dbo:ProgrammingLanguage"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_15844",
@@ -31941,7 +31927,6 @@
         "category": "resource",
         "type": [
             "dbo:Activity",
-            "dbo:Book",
             "dbo:Letter"
         ]
     },
@@ -31976,14 +31961,11 @@
         "type": [
             "dbo:ArchitecturalStructure",
             "dbo:Building",
-            "dbo:Infrastructure",
             "dbo:Location",
             "dbo:Mosque",
             "dbo:Place",
             "dbo:PopulatedPlace",
-            "dbo:RailwayLine",
-            "dbo:ReligiousBuilding",
-            "dbo:RouteOfTransportation"
+            "dbo:ReligiousBuilding"
         ]
     },
     {
@@ -32007,12 +31989,12 @@
         "question": "Which is the scientific journal that originated from the Soviet Union.",
         "category": "resource",
         "type": [
-            "dbo:City",
+            "dbo:Country",
             "dbo:Location",
             "dbo:Meeting",
             "dbo:Place",
             "dbo:PopulatedPlace",
-            "dbo:Settlement"
+            "dbo:State"
         ]
     },
     {
@@ -32127,6 +32109,7 @@
         "question": "God Save the Queen is the anthem for which island nation?",
         "category": "resource",
         "type": [
+            "dbo:Country",
             "dbo:Location",
             "dbo:NationalAnthem",
             "dbo:Place",
@@ -32157,8 +32140,7 @@
         "question": "Which is the length of the Green River?",
         "category": "resource",
         "type": [
-            "dbo:Island",
-            "dbo:Location"
+            "dbo:Island"
         ]
     },
     {
@@ -32192,7 +32174,6 @@
         "type": [
             "dbo:City",
             "dbo:Location",
-            "dbo:MilitaryConflict",
             "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Settlement"
@@ -32291,6 +32272,7 @@
         "type": [
             "dbo:ArchitecturalStructure",
             "dbo:City",
+            "dbo:Country",
             "dbo:Infrastructure",
             "dbo:Island",
             "dbo:Location",
@@ -32321,6 +32303,7 @@
         "question": "Which extrasolar planet has the largest semi-major axis?",
         "category": "resource",
         "type": [
+            "dbo:Asteroid",
             "dbo:CelestialBody",
             "dbo:Device",
             "dbo:Location",
@@ -32424,7 +32407,8 @@
         "type": [
             "dbo:FloweringPlant",
             "dbo:Insect",
-            "dbo:Island"
+            "dbo:Island",
+            "dbo:Plant"
         ]
     },
     {
@@ -32437,6 +32421,7 @@
             "dbo:Church",
             "dbo:Location",
             "dbo:Person",
+            "dbo:Place",
             "dbo:ReligiousBuilding"
         ]
     },
@@ -32471,6 +32456,7 @@
         "type": [
             "dbo:Activity",
             "dbo:Event",
+            "dbo:SocietalEvent",
             "dbo:SportsEvent",
             "dbo:Tournament"
         ]
@@ -32500,7 +32486,6 @@
             "dbo:Location",
             "dbo:Monarch",
             "dbo:Non-ProfitOrganisation",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -32540,7 +32525,9 @@
             "dbo:Infrastructure",
             "dbo:Location",
             "dbo:Place",
-            "dbo:RouteOfTransportation"
+            "dbo:PopulatedPlace",
+            "dbo:RouteOfTransportation",
+            "dbo:State"
         ]
     },
     {
@@ -32570,7 +32557,6 @@
             "dbo:Location",
             "dbo:NaturalPlace",
             "dbo:Place",
-            "dbo:PopulatedPlace",
             "dbo:River",
             "dbo:Stream"
         ]
@@ -32581,6 +32567,7 @@
         "category": "resource",
         "type": [
             "dbo:Activity",
+            "dbo:AnatomicalStructure",
             "dbo:Game"
         ]
     },
@@ -32590,8 +32577,7 @@
         "category": "resource",
         "type": [
             "dbo:Legislature",
-            "dbo:Location",
-            "dbo:Place"
+            "dbo:Location"
         ]
     },
     {
@@ -32700,6 +32686,7 @@
         "category": "resource",
         "type": [
             "dbo:City",
+            "dbo:Country",
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
@@ -32712,6 +32699,8 @@
         "category": "resource",
         "type": [
             "dbo:Activity",
+            "dbo:EthnicGroup",
+            "dbo:Food",
             "dbo:SportsTeam"
         ]
     },
@@ -32776,6 +32765,7 @@
             "dbo:CollegeCoach",
             "dbo:EducationalInstitution",
             "dbo:GridironFootballPlayer",
+            "dbo:Organisation",
             "dbo:School",
             "dbo:University"
         ]
@@ -32810,9 +32800,7 @@
         "category": "resource",
         "type": [
             "dbo:Athlete",
-            "dbo:City",
             "dbo:Island",
-            "dbo:Location",
             "dbo:Swimmer"
         ]
     },
@@ -32875,8 +32863,7 @@
         "category": "resource",
         "type": [
             "dbo:Asteroid",
-            "dbo:CelestialBody",
-            "dbo:Location"
+            "dbo:CelestialBody"
         ]
     },
     {
@@ -32886,6 +32873,7 @@
         "type": [
             "dbo:Contest",
             "dbo:Event",
+            "dbo:Location",
             "dbo:MeanOfTransportation"
         ]
     },
@@ -33001,7 +32989,9 @@
         "id": "dbpedia_2260",
         "question": "What is the combustion enthalpy for acetylene?",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:ChemicalSubstance"
+        ]
     },
     {
         "id": "dbpedia_23535",
@@ -33248,6 +33238,7 @@
         "type": [
             "dbo:City",
             "dbo:Country",
+            "dbo:Location",
             "dbo:PopulatedPlace",
             "dbo:Settlement",
             "dbo:State"
@@ -33273,9 +33264,7 @@
         "id": "dbpedia_3713",
         "question": "What is the central bank that issues the Russian ruble?",
         "category": "resource",
-        "type": [
-            "dbo:Location"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_13277",
@@ -33377,7 +33366,8 @@
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
-            "dbo:Settlement"
+            "dbo:Settlement",
+            "dbo:State"
         ]
     },
     {
@@ -33410,10 +33400,9 @@
         "category": "resource",
         "type": [
             "dbo:Company",
-            "dbo:Media",
+            "dbo:Organisation",
             "dbo:Person",
-            "dbo:PersonFunction",
-            "dbo:Profession"
+            "dbo:PersonFunction"
         ]
     },
     {
@@ -33449,6 +33438,7 @@
         "type": [
             "dbo:EducationalInstitution",
             "dbo:OfficeHolder",
+            "dbo:Organisation",
             "dbo:Person",
             "dbo:University"
         ]
@@ -33487,14 +33477,15 @@
         "id": "dbpedia_6354",
         "question": "What is the maximum vapor pressure of Galinstan?",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:Location"
+        ]
     },
     {
         "id": "dbpedia_22160",
         "question": "List the sports of PATTS College of Aeronautics which are of interest of Jon Speelman ?",
         "category": "resource",
         "type": [
-            "dbo:Activity",
             "dbo:EducationalInstitution",
             "dbo:Game",
             "dbo:Sport"
@@ -33624,6 +33615,7 @@
         "category": "resource",
         "type": [
             "dbo:Company",
+            "dbo:Organisation",
             "dbo:Person"
         ]
     },
@@ -33637,7 +33629,8 @@
             "dbo:OfficeHolder",
             "dbo:Person",
             "dbo:PopulatedPlace",
-            "dbo:Settlement"
+            "dbo:Settlement",
+            "dbo:State"
         ]
     },
     {
@@ -33652,16 +33645,15 @@
         "id": "dbpedia_2146",
         "question": "who suspect of present at of luxembourg in the eurovision Song Contest 1976 ?",
         "category": "resource",
-        "type": [
-            "dbo:TelevisionShow"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_2182",
         "question": "What work got Helen Hunt the nomination for the Academy Award for Best Supporting Actress?",
         "category": "resource",
         "type": [
-            "dbo:Film"
+            "dbo:Film",
+            "dbo:Work"
         ]
     },
     {
@@ -33717,6 +33709,7 @@
             "dbo:Company",
             "dbo:Non-ProfitOrganisation",
             "dbo:Organisation",
+            "dbo:Work",
             "dbo:WrittenWork"
         ]
     },
@@ -33726,9 +33719,7 @@
         "category": "resource",
         "type": [
             "dbo:City",
-            "dbo:Location",
             "dbo:PopulatedPlace",
-            "dbo:Settlement",
             "dbo:Town"
         ]
     },
@@ -33842,7 +33833,6 @@
             "dbo:BodyOfWater",
             "dbo:Location",
             "dbo:NaturalPlace",
-            "dbo:Place",
             "dbo:River",
             "dbo:Stream"
         ]
@@ -33890,7 +33880,6 @@
         "question": "What kind of employment do the spouses of Jussi Bj\u00f6rling do?",
         "category": "resource",
         "type": [
-            "dbo:Activity",
             "dbo:Sport"
         ]
     },
@@ -34038,7 +34027,6 @@
             "dbo:Person",
             "dbo:RailwayStation",
             "dbo:RouteOfTransportation",
-            "dbo:SportsTeam",
             "dbo:Station"
         ]
     },
@@ -34111,7 +34099,6 @@
             "dbo:City",
             "dbo:Language",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -34282,6 +34269,7 @@
         "category": "resource",
         "type": [
             "dbo:BodyOfWater",
+            "dbo:Country",
             "dbo:Location",
             "dbo:Mountain",
             "dbo:NaturalPlace",
@@ -34308,7 +34296,6 @@
         "type": [
             "dbo:Company",
             "dbo:PersonFunction",
-            "dbo:Profession",
             "dbo:VideoGame"
         ]
     },
@@ -34317,6 +34304,7 @@
         "question": "Name presidents of the schools which have queen noor of Jordan as one of them ?",
         "category": "resource",
         "type": [
+            "dbo:Politician",
             "dbo:Royalty"
         ]
     },
@@ -34343,7 +34331,8 @@
             "dbo:City",
             "dbo:Location",
             "dbo:Place",
-            "dbo:PopulatedPlace"
+            "dbo:PopulatedPlace",
+            "dbo:Settlement"
         ]
     },
     {
@@ -34390,7 +34379,9 @@
         "id": "dbpedia_22243",
         "question": "Which are the countires where Pioneer Corporation has flourished?",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:Continent"
+        ]
     },
     {
         "id": "dbpedia_17555",
@@ -34435,6 +34426,7 @@
         "category": "resource",
         "type": [
             "dbo:Country",
+            "dbo:Location",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -34475,7 +34467,6 @@
         "type": [
             "dbo:Location",
             "dbo:PersonFunction",
-            "dbo:Place",
             "dbo:Profession",
             "dbo:Village"
         ]
@@ -34484,10 +34475,7 @@
         "id": "dbpedia_1776",
         "question": "For which website Julian did use to work for ?",
         "category": "resource",
-        "type": [
-            "dbo:Magazine",
-            "dbo:Software"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_20072",
@@ -34621,7 +34609,8 @@
         "question": "For which work William Hurt is nominated for BAFTA Award for Best Actor in a Leading Role?",
         "category": "resource",
         "type": [
-            "dbo:Film"
+            "dbo:Film",
+            "dbo:Work"
         ]
     },
     {
@@ -34684,7 +34673,8 @@
         "type": [
             "dbo:Election",
             "dbo:OfficeHolder",
-            "dbo:Person"
+            "dbo:Person",
+            "dbo:Skyscraper"
         ]
     },
     {
@@ -34709,7 +34699,9 @@
         "id": "dbpedia_2002",
         "question": "What is the sport cricket?",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:SportsLeague"
+        ]
     },
     {
         "id": "dbpedia_22925",
@@ -34752,9 +34744,7 @@
         "id": "dbpedia_23388",
         "question": "What is the last work of Dan Brown?",
         "category": "resource",
-        "type": [
-            "dbo:Book"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_6629",
@@ -34878,7 +34868,6 @@
         "category": "resource",
         "type": [
             "dbo:Food",
-            "dbo:Media",
             "dbo:Person"
         ]
     },
@@ -35075,10 +35064,8 @@
             "dbo:City",
             "dbo:Location",
             "dbo:Mountain",
-            "dbo:NaturalPlace",
             "dbo:Place",
-            "dbo:PopulatedPlace",
-            "dbo:Settlement"
+            "dbo:PopulatedPlace"
         ]
     },
     {
@@ -35111,6 +35098,7 @@
         "question": "What actor of Le Cirque is a relative of Maryanne Trump barry?",
         "category": "resource",
         "type": [
+            "dbo:Athlete",
             "dbo:RadioProgram",
             "dbo:RugbyPlayer"
         ]
@@ -35120,11 +35108,11 @@
         "question": "who culture of state of australian secret intelligence services ?",
         "category": "resource",
         "type": [
+            "dbo:City",
             "dbo:Country",
             "dbo:EthnicGroup",
             "dbo:GovernmentAgency",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:State"
         ]
@@ -35143,6 +35131,7 @@
         "question": "Where was the book of the history of Israel originally composed?",
         "category": "resource",
         "type": [
+            "dbo:ArchitecturalStructure",
             "dbo:Building",
             "dbo:Country",
             "dbo:Location",
@@ -35215,6 +35204,7 @@
         "question": "What radio award is named after Salzburg?",
         "category": "resource",
         "type": [
+            "dbo:Media",
             "dbo:RadioProgram"
         ]
     },
@@ -35400,9 +35390,7 @@
         "id": "dbpedia_864",
         "question": "Where there 3.2 perpetrators in the Enoch Brown school massacre?",
         "category": "resource",
-        "type": [
-            "dbo:City"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_16455",
@@ -35532,7 +35520,10 @@
         "question": "tell me legal case whose name has the word wei in it",
         "category": "resource",
         "type": [
-            "dbo:Constellation"
+            "dbo:Device",
+            "dbo:EthnicGroup",
+            "dbo:Food",
+            "dbo:Weapon"
         ]
     },
     {
@@ -35582,7 +35573,6 @@
         "type": [
             "dbo:Athlete",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Swimmer"
         ]
@@ -35795,6 +35785,7 @@
         "question": "Which vessel has the most volume that was assembled in New Quay.",
         "category": "resource",
         "type": [
+            "dbo:Legislature",
             "dbo:MeanOfTransportation",
             "dbo:Ship",
             "dbo:Spacecraft"
@@ -35879,7 +35870,9 @@
         "type": [
             "dbo:Continent",
             "dbo:Location",
-            "dbo:PopulatedPlace"
+            "dbo:Place",
+            "dbo:PopulatedPlace",
+            "dbo:State"
         ]
     },
     {
@@ -35937,6 +35930,7 @@
         "question": "Who is the MAMSL narrator set in Journey to the End of the Night ?",
         "category": "resource",
         "type": [
+            "dbo:Band",
             "dbo:Person"
         ]
     },
@@ -35997,7 +35991,12 @@
         "id": "dbpedia_1095",
         "question": "TELL ME HUMAN SETTLEMENT WHOSE NAME HAS THE WORD ZANZIBAR IN  IT.",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:Device",
+            "dbo:EthnicGroup",
+            "dbo:Food",
+            "dbo:Weapon"
+        ]
     },
     {
         "id": "dbpedia_3590",
@@ -36098,7 +36097,8 @@
         "question": "What is the work of Gary Oldman who received BAFTA Award for Best Actor in a Leading Role?",
         "category": "resource",
         "type": [
-            "dbo:Film"
+            "dbo:Film",
+            "dbo:Work"
         ]
     },
     {
@@ -36164,9 +36164,7 @@
         "category": "resource",
         "type": [
             "dbo:City",
-            "dbo:Location",
             "dbo:PopulatedPlace",
-            "dbo:Settlement",
             "dbo:Town"
         ]
     },
@@ -36562,7 +36560,8 @@
         "type": [
             "dbo:Location",
             "dbo:MilitaryConflict",
-            "dbo:Place"
+            "dbo:Place",
+            "dbo:PopulatedPlace"
         ]
     },
     {
@@ -36646,7 +36645,6 @@
             "dbo:Country",
             "dbo:EthnicGroup",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace"
         ]
     },
@@ -36672,6 +36670,7 @@
         "category": "resource",
         "type": [
             "dbo:City",
+            "dbo:Country",
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
@@ -36779,7 +36778,6 @@
         "question": "What is the language spoken in the city which Ronaldinho played sports?",
         "category": "resource",
         "type": [
-            "dbo:Activity",
             "dbo:Language",
             "dbo:Location",
             "dbo:Place",
@@ -36794,8 +36792,7 @@
         "category": "resource",
         "type": [
             "dbo:Continent",
-            "dbo:GivenName",
-            "dbo:Location"
+            "dbo:GivenName"
         ]
     },
     {
@@ -36825,11 +36822,9 @@
         "question": "Mouse Morris' horses have raced in which races?",
         "category": "resource",
         "type": [
-            "dbo:Event",
             "dbo:FormulaOneRacer",
             "dbo:HorseRace",
             "dbo:Race",
-            "dbo:SocietalEvent",
             "dbo:SportsEvent"
         ]
     },
@@ -36852,7 +36847,6 @@
         "question": "Name the sports played by Jamiatu Muslim Mindanao?",
         "category": "resource",
         "type": [
-            "dbo:Activity",
             "dbo:Game",
             "dbo:Sport"
         ]
@@ -36871,9 +36865,7 @@
         "id": "dbpedia_6186",
         "question": "What was the namesake for Bohr radius with a recognition title of Copley Medal?",
         "category": "resource",
-        "type": [
-            "dbo:AcademicSubject"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_21930",
@@ -36951,7 +36943,6 @@
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
-            "dbo:Settlement",
             "dbo:State"
         ]
     },
@@ -37064,7 +37055,10 @@
         "id": "dbpedia_4058",
         "question": "Tell me craft  whose name has the word woodworker in it.",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:EthnicGroup",
+            "dbo:Food"
+        ]
     },
     {
         "id": "dbpedia_21921",
@@ -37314,7 +37308,6 @@
             "dbo:Company",
             "dbo:HockeyTeam",
             "dbo:PersonFunction",
-            "dbo:Profession",
             "dbo:SoccerClub",
             "dbo:SportsTeam"
         ]
@@ -37380,8 +37373,7 @@
         "category": "resource",
         "type": [
             "dbo:GivenName",
-            "dbo:Name",
-            "dbo:Software"
+            "dbo:Name"
         ]
     },
     {
@@ -37419,9 +37411,7 @@
         "id": "dbpedia_8416",
         "question": "What medals has the Royal Philharmonic Society given Herbert von Karajan?",
         "category": "resource",
-        "type": [
-            "dbo:Theatre"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_7691",
@@ -37437,9 +37427,7 @@
         "category": "resource",
         "type": [
             "dbo:City",
-            "dbo:Location",
             "dbo:PopulatedPlace",
-            "dbo:Settlement",
             "dbo:Town"
         ]
     },
@@ -37530,6 +37518,7 @@
         "question": "What is the UNDP country code of S\u00e3o Tom\u00e9 and Pr\u00edncipe?",
         "category": "resource",
         "type": [
+            "dbo:Location",
             "dbo:Protein"
         ]
     },
@@ -37640,9 +37629,7 @@
         "id": "dbpedia_3394",
         "question": "Where did Andrey Kolmogorov earn his Doctor of Sciences in Physics and Mathematics?",
         "category": "resource",
-        "type": [
-            "dbo:City"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_3430",
@@ -37666,7 +37653,6 @@
         "question": "Where is Sungkyunkwan University?",
         "category": "resource",
         "type": [
-            "dbo:City",
             "dbo:EducationalInstitution",
             "dbo:Organisation",
             "dbo:University"
@@ -37719,6 +37705,7 @@
         "category": "resource",
         "type": [
             "dbo:Family",
+            "dbo:Food",
             "dbo:NobleFamily"
         ]
     },
@@ -37746,6 +37733,7 @@
         "type": [
             "dbo:Company",
             "dbo:OfficeHolder",
+            "dbo:Organisation",
             "dbo:Person"
         ]
     },
@@ -37785,8 +37773,7 @@
         "question": "In what series does Nanette Fabray play a character called Ruby?",
         "category": "resource",
         "type": [
-            "dbo:FictionalCharacter",
-            "dbo:TelevisionShow"
+            "dbo:FictionalCharacter"
         ]
     },
     {
@@ -37818,9 +37805,7 @@
         "question": "Which is the postcode of the hometown of Ricky Martin?",
         "category": "resource",
         "type": [
-            "dbo:City",
-            "dbo:Location",
-            "dbo:PopulatedPlace"
+            "dbo:Location"
         ]
     },
     {
@@ -37879,7 +37864,6 @@
         "category": "resource",
         "type": [
             "dbo:Building",
-            "dbo:City",
             "dbo:Location",
             "dbo:Place",
             "dbo:ReligiousBuilding"
@@ -37929,10 +37913,7 @@
         "type": [
             "dbo:Biomolecule",
             "dbo:Building",
-            "dbo:City",
             "dbo:Location",
-            "dbo:Place",
-            "dbo:PopulatedPlace",
             "dbo:Prison",
             "dbo:Protein"
         ]
@@ -37961,7 +37942,8 @@
             "dbo:City",
             "dbo:Location",
             "dbo:Place",
-            "dbo:PopulatedPlace"
+            "dbo:PopulatedPlace",
+            "dbo:Settlement"
         ]
     },
     {
@@ -38049,7 +38031,6 @@
         "category": "resource",
         "type": [
             "dbo:FictionalCharacter",
-            "dbo:Group",
             "dbo:Person"
         ]
     },
@@ -38081,6 +38062,7 @@
             "dbo:Astronaut",
             "dbo:Event",
             "dbo:Food",
+            "dbo:SocietalEvent",
             "dbo:SpaceMission"
         ]
     },
@@ -38190,7 +38172,6 @@
             "dbo:Country",
             "dbo:Location",
             "dbo:PopulatedPlace",
-            "dbo:Settlement",
             "dbo:State"
         ]
     },
@@ -38208,6 +38189,7 @@
         "category": "resource",
         "type": [
             "dbo:Activity",
+            "dbo:Event",
             "dbo:SportsEvent",
             "dbo:Tournament"
         ]
@@ -38308,7 +38290,6 @@
         "question": "What are the intergovernmental organization that contains the word southern in their name",
         "category": "resource",
         "type": [
-            "dbo:Activity",
             "dbo:EducationalInstitution",
             "dbo:University"
         ]
@@ -38383,6 +38364,7 @@
         "question": "Under whom did Charles Drummond Ellis do his PhD?",
         "category": "resource",
         "type": [
+            "dbo:OfficeHolder",
             "dbo:Scientist"
         ]
     },
@@ -38407,7 +38389,6 @@
         "question": "What drugs are used in the treatment of malaria?",
         "category": "resource",
         "type": [
-            "dbo:ChemicalCompound",
             "dbo:ChemicalSubstance"
         ]
     },
@@ -38459,8 +38440,6 @@
         "type": [
             "dbo:BroadcastNetwork",
             "dbo:Broadcaster",
-            "dbo:City",
-            "dbo:Continent",
             "dbo:TelevisionStation"
         ]
     },
@@ -38480,7 +38459,6 @@
             "dbo:City",
             "dbo:Country",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Settlement",
             "dbo:State"
@@ -38494,9 +38472,12 @@
             "dbo:ArchitecturalStructure",
             "dbo:Building",
             "dbo:Continent",
+            "dbo:Event",
+            "dbo:Location",
             "dbo:MilitaryConflict",
             "dbo:Mosque",
-            "dbo:ReligiousBuilding"
+            "dbo:ReligiousBuilding",
+            "dbo:SocietalEvent"
         ]
     },
     {
@@ -38521,7 +38502,6 @@
         "question": "What are the belligerents in the American Revolutionary War, who have divided into Cantabria?",
         "category": "resource",
         "type": [
-            "dbo:City",
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace",
@@ -38766,14 +38746,18 @@
         "question": "When was Maximilian Schell nominated for Best Supporting Actor in the Academy Awards?",
         "category": "resource",
         "type": [
-            "dbo:Film"
+            "dbo:Film",
+            "dbo:Work"
         ]
     },
     {
         "id": "dbpedia_8622",
         "question": "What is the Gini coefficient of N. Korea?",
         "category": "resource",
-        "type": []
+        "type": [
+            "dbo:Church",
+            "dbo:ReligiousBuilding"
+        ]
     },
     {
         "id": "dbpedia_3678",
@@ -38815,7 +38799,6 @@
         "type": [
             "dbo:Location",
             "dbo:Person",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Venue"
         ]
@@ -38834,6 +38817,7 @@
         "category": "resource",
         "type": [
             "dbo:EducationalInstitution",
+            "dbo:Organisation",
             "dbo:School",
             "dbo:University"
         ]
@@ -38881,7 +38865,6 @@
             "dbo:Country",
             "dbo:EthnicGroup",
             "dbo:Location",
-            "dbo:Place",
             "dbo:PopulatedPlace"
         ]
     },
@@ -38890,7 +38873,8 @@
         "question": "Name the composer of motorpsycho Nitemare ?",
         "category": "resource",
         "type": [
-            "dbo:MusicalWork"
+            "dbo:MusicalWork",
+            "dbo:Work"
         ]
     },
     {
@@ -38936,8 +38920,8 @@
         "category": "resource",
         "type": [
             "dbo:Location",
-            "dbo:Place",
-            "dbo:PopulatedPlace"
+            "dbo:PopulatedPlace",
+            "dbo:State"
         ]
     },
     {
@@ -38965,7 +38949,6 @@
         "type": [
             "dbo:Location",
             "dbo:Person",
-            "dbo:Place",
             "dbo:PopulatedPlace"
         ]
     },
@@ -38995,6 +38978,7 @@
             "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Settlement",
+            "dbo:State",
             "dbo:Village"
         ]
     },
@@ -39012,7 +38996,6 @@
             "dbo:Location",
             "dbo:Mountain",
             "dbo:NaturalPlace",
-            "dbo:Place",
             "dbo:PopulatedPlace",
             "dbo:Port",
             "dbo:Settlement"
@@ -39094,7 +39077,6 @@
         "question": "Which shareholder of Naval Air facility Adak is also the operator of New Sanno Hotel ?",
         "category": "resource",
         "type": [
-            "dbo:Company",
             "dbo:MilitaryUnit"
         ]
     },
@@ -39103,8 +39085,7 @@
         "question": "Name the regions served by Toll Global Express ?",
         "category": "resource",
         "type": [
-            "dbo:Continent",
-            "dbo:Location"
+            "dbo:Continent"
         ]
     },
     {
@@ -39147,6 +39128,7 @@
         "category": "resource",
         "type": [
             "dbo:AcademicSubject",
+            "dbo:Company",
             "dbo:EducationalInstitution",
             "dbo:University"
         ]
@@ -39212,7 +39194,6 @@
         "question": "Whose commanders are John Mc Ewen and Park Chunghee?",
         "category": "resource",
         "type": [
-            "dbo:Location",
             "dbo:MilitaryConflict"
         ]
     },
@@ -39289,11 +39270,9 @@
         "question": "Tell me colonial empire whose name has the word list in it.",
         "category": "resource",
         "type": [
-            "dbo:Archipelago",
-            "dbo:Location",
-            "dbo:Media",
-            "dbo:Mountain",
-            "dbo:Place"
+            "dbo:EthnicGroup",
+            "dbo:Food",
+            "dbo:Media"
         ]
     },
     {
@@ -39473,6 +39452,7 @@
         "category": "resource",
         "type": [
             "dbo:Country",
+            "dbo:EducationalInstitution",
             "dbo:Location",
             "dbo:Place",
             "dbo:PopulatedPlace"
@@ -39636,10 +39616,7 @@
         "id": "dbpedia_6823",
         "question": "What is long  lives in  John Keats ?",
         "category": "resource",
-        "type": [
-            "dbo:Location",
-            "dbo:PersonFunction"
-        ]
+        "type": []
     },
     {
         "id": "dbpedia_10069",
