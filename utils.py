@@ -74,7 +74,7 @@ def transform_dataset(dataset, file):
     Returns: Feature vector or None
     """
     with open(file, 'rb') as f:
-        return pickle.load(f).transform(test_dataset)
+        return pickle.load(f).transform(dataset)
     return None
 
 
@@ -95,7 +95,7 @@ def split_bool_literal_reference(dataset, labels):
     literal_map = {}
     resource_map = {}
 
-    for i in range(len(y)):
+    for i in range(len(labels)):
         if labels[i] == 'boolean':
             bool_map[i] = dataset[i]
         elif labels[i] == 'literal':
