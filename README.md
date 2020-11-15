@@ -1,6 +1,6 @@
 # DAT640 SMART
 
-This repository comprises of multiple jupyter notebooks. Each notebook is used to fullfill a single tast. Here is an overview of what each file is used for.
+This repository comprises of multiple jupyter notebooks. Each notebook is used to fullfill a single task. Here is an overview of what each file is used for.
 
 > **Split_Dataset.ipynb**  
 > Split the original dataset into train and test set.  
@@ -8,7 +8,6 @@ This repository comprises of multiple jupyter notebooks. Each notebook is used t
 > - datasets/DBpedia/train.json
 > - datasets/DBpedia/test.json
 > - datasets/DBpedia/test_grnd.json
-> - datasets/DBpedia/smarttask_dbpedia_train.json
 
 > **Indexing.ipynb**  
 > Run this notebook to index the training set using Elasticsearch.
