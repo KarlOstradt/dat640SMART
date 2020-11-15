@@ -56,3 +56,23 @@ def transform_dataset(test_dataset, file):
     with open(file, 'rb') as f:
         return pickle.load(f).transform(test_dataset)
     return None
+
+
+def split_bool_literal_reference(X, y):
+    """
+    doc...
+    """
+    bool_map = {}
+    literal_map = {}
+    resource_map = {}
+
+    for i in range(len(y)):
+        if y[i] == 'boolean':
+            bool_map[i] = X[i]
+        elif y[i] == 'literal':
+            literal_map[i] = X[i]
+        elif y[i] == 'resource':
+            resource_map[i] = X[i]
+            
+    return bool_map, literal_map, resource_map
+
