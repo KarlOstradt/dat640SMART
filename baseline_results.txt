@@ -1,9 +1,0 @@
-Evaluation results:
--------------------
-Category prediction (based on 4367 questions)
-  Accuracy: 0.922
-Type ranking (based on 3397 questions)
-  NDCG@5:  0.542
-  NDCG@10: 0.534
-  
-  10 questions were missing gold types
