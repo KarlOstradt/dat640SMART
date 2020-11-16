@@ -17,14 +17,14 @@ This repository comprises of multiple jupyter notebooks. Each notebook is used t
 > Outputs the files: 
 > - word2vec_sg.sav
 
-> **category_classifier.ipynb**  
+> **Category_classifier.ipynb**  
 > Trains both the baseline and advanced category classifiers. 
 > Outputs the files:  
 > - category_classifier_baseline.sav
 > - category_classifier_advanced.sav
 > - category_vectorizer.sav
 
-> **type_classifier.ipynb**  
+> **Literal_classifier.ipynb**  
 > Trains literal type classifier. 
 > Outputs the files:  
 > - literal_vectorizer.sav
